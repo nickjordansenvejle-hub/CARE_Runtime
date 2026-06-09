@@ -1,0 +1,932 @@
+--- CARE_Runtime_v18_0_Product_Architecture_Founder_Pro_Accessibility.py
++++ CARE_Runtime_v19_0_Global_Search_Timeline_Founder_Center.py
+@@ -25,7 +25,7 @@
+     PDF_AVAILABLE = False
+ 
+ # ============================================================
+-# CARE Runtime v18.0 Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 Global Search + Timeline + Founder Center
+ # Built from CARE Runtime v8.8 and rebuilt with stable internal
+ # page keys, stronger Founder of CARE presence, cleaner bilingual
+ # routing, professional UI polish, and full PDF export support.
+@@ -40,7 +40,7 @@
+ # ============================================================
+ 
+ st.set_page_config(
+-    page_title="CARE Runtime v18.0.1 · All-In Consolidated + Sidebar Stability",
++    page_title="CARE Runtime v19.0.1 · All-In Consolidated + Sidebar Stability",
+     page_icon="🛡️",
+     layout="wide",
+     initial_sidebar_state="expanded",
+@@ -48,8 +48,8 @@
+ 
+ BASELINE = "CARE vNEXT858 FINAL CLEAN — FIXED CONTROL · F765"
+ CASE_VERSION = "vNEXT858 F765"
+-PLATFORM_NAME = "CARE Runtime v18.0"
+-PLATFORM_SUBTITLE = "Product Architecture + Founder Pro + Accessibility"
++PLATFORM_NAME = "CARE Runtime v19.0"
++PLATFORM_SUBTITLE = "Global Search + Timeline + Founder Center"
+ CORE_RULE = "No proof -> no bind -> no effect-capable path -> no effect"
+ UNKNOWN_RULE = "UNKNOWN -> HOLD"
+ HUMAN_RULE = "No bind -> no human consequence"
+@@ -69,6 +69,16 @@
+ 
+ 
+ NON_AUTHORITY_GUARD = {
++    "v190_global_search_without_authority": True,
++    "v190_timeline_explorer_without_bind": True,
++    "v190_founder_center_without_permission": True,
++    "v190_knowledge_graph_without_execution": True,
++    "v190_care_in_5_minutes_without_real_world_decision": True,
++    "v190_public_navigation_without_deployment_authority": True,
++    "timeline_visibility_without_authority": True,
++    "knowledge_graph_without_bind": True,
++    "search_index_without_permission": True,
++    "founder_center_without_authority": True,
+     "v180_product_architecture_without_authority": True,
+     "v180_founder_pro_without_bind": True,
+     "v180_accessibility_center_without_permission": True,
+@@ -3180,7 +3190,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Language Selector Recovery
++# CARE Runtime v19.0 — Language Selector Recovery
+ # Restores the missing language_selector() used by the v12.8.1
+ # robust sidebar. Language selection improves access only.
+ # It does not create authority, bind, permission or execution.
+@@ -10532,7 +10542,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 Pressure Testing metadata
++# CARE Runtime v19.0 Pressure Testing metadata
+ # Public pressure testing, red team attempts, challenge records,
+ # boundary visualization and reviewer submissions remain observer-only.
+ # They can inspect, falsify pressure, and expose failure surfaces;
+@@ -10837,7 +10847,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Language improves access. It does not create authority.
+ # ============================================================
+ 
+@@ -10946,7 +10956,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Static inspection only. It does not create authority.
+ # ============================================================
+ 
+@@ -11151,7 +11161,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Visualization only. It does not create authority, bind, execution,
+ # permission or real-world consequence.
+ # ============================================================
+@@ -11376,7 +11386,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Challenge simulation only. It does not create authority, bind,
+ # execution, permission, or real-world consequence.
+ # ============================================================
+@@ -11708,7 +11718,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Review-only separation layer. It does not create authority.
+ # ============================================================
+ 
+@@ -11861,7 +11871,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Richard pressure surface:
+ # The reduction can survive while the ecosystem creates new
+ # legitimacy surfaces around it. This layer tests those surfaces.
+@@ -12122,7 +12132,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Self-Test Center
++# CARE Runtime v19.0 — Runtime Self-Test Center
+ # Static self-inspection only. It does not create authority,
+ # bind, execution, permission, or real-world consequence.
+ # ============================================================
+@@ -12329,7 +12339,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Every visible page must have content. Danish language mode should show
+ # Danish project/story/learning content wherever this patch controls output.
+ # Localization improves access only. It does not create authority.
+@@ -12772,7 +12782,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Completes the self-test windows and adds deeper QA surfaces.
+ # Self-test is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13131,7 +13141,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Fixes route definition order and adds completion audit pages.
+ # Audit is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13493,7 +13503,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # One control center for pages, translations, sidebar health,
+ # downloads and searchable CARE runtime inventory.
+ # Review-only. Completion score does not authorize.
+@@ -13516,7 +13526,7 @@
+             reports.append(page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "care_runtime_completion_center": "CARE Product Architecture + Founder Pro + Accessibility",
++        "care_runtime_completion_center": "CARE Global Search + Timeline + Founder Center",
+         "translation_integrity_center": "Translation Integrity Center",
+         "sidebar_health_dashboard": "Sidebar Health Dashboard",
+         "download_surface_center": "Download Surface Center",
+@@ -13532,7 +13542,7 @@
+ 
+     HERO.update({
+         "care_runtime_completion_center": {
+-            "English": ("CARE Product Architecture + Founder Pro + Accessibility", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
++            "English": ("CARE Global Search + Timeline + Founder Center", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
+             "Dansk": ("CARE runtime completion center", "Ét dashboard for side-udfyldning, sprogdækning, sidebar-health, downloadflader og release-review.", "Completion ≠ Autoritet"),
+         },
+         "translation_integrity_center": {
+@@ -13554,7 +13564,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "CARE Product Architecture + Founder Pro + Accessibility": "CARE runtime completion center",
++        "CARE Global Search + Timeline + Founder Center": "CARE runtime completion center",
+         "Translation Integrity Center": "Oversættelses-integritetscenter",
+         "Sidebar Health Dashboard": "Sidebar health dashboard",
+         "Download Surface Center": "Downloadflade-center",
+@@ -13902,7 +13912,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Universal content overlay + public-source founder context.
+ # Every grouped page receives a visible purpose/boundary block.
+ # Public story is context only. It does not create authority.
+@@ -14298,7 +14308,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Robust route selector. Selection changes page_key directly.
+ # Navigation improves access only. It does not create authority.
+ # ============================================================
+@@ -14307,8 +14317,8 @@
+     lang = language_selector()
+     labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
+ 
+-    st.sidebar.markdown("## CARE Runtime v18.0")
+-    st.sidebar.caption("Product Architecture + Founder Pro + Accessibility · vNEXT858 · vNEXT859 HOLD")
++    st.sidebar.markdown("## CARE Runtime v19.0")
++    st.sidebar.caption("Global Search + Timeline + Founder Center · vNEXT858 · vNEXT859 HOLD")
+ 
+     founder_label = "Founder of CARE" if lang == "English" else "Founder af CARE"
+     st.sidebar.markdown(
+@@ -14415,7 +14425,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Runtime Recovery Diagnostic
++# CARE Runtime v19.0 — Runtime Recovery Diagnostic
+ # Verifies language selector, sidebar route state and route references.
+ # ============================================================
+ 
+@@ -14511,7 +14521,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # A professional presentation layer: mission control, executive
+ # overview, founder timeline, partner readiness and improved sidebar.
+ # Design improves inspection only. It does not create authority.
+@@ -14973,7 +14983,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Mission Control</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Professional Platform UI · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+@@ -15036,7 +15046,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Public-facing entry points: Start Here, Public Demo Flow,
+ # Reviewer Mode, Clean Download Center and Public Demo QA.
+ # Public demo improves presentation only. It does not authorize.
+@@ -15173,7 +15183,7 @@
+             "CARE asks one public question: should a system be allowed to create consequence for people without valid proof, authority, current state and bind?"
+             if not v130_da()
+             else "CARE stiller ét offentligt spørgsmål: bør et system kunne skabe konsekvens for mennesker uden gyldigt bevis, autoritet, aktuel tilstand og bind?",
+-            "Product Architecture + Founder Pro + Accessibility" if not v130_da() else "Product Architecture + Founder Pro + Accessibility",
++            "Global Search + Timeline + Founder Center" if not v130_da() else "Global Search + Timeline + Founder Center",
+         )
+     else:
+         render_hero("start_here_public_demo")
+@@ -15308,8 +15318,8 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
+-          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Product Architecture + Founder Pro + Accessibility</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Global Search + Timeline + Founder Center</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Observer-only · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+         """,
+@@ -15385,7 +15395,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Human consequence first: consequence chain, scenario builder,
+ # hospital demo, municipality demo and human impact map.
+ # Demo is observer-only. It grants no authority, bind or execution.
+@@ -15406,7 +15416,7 @@
+             command_pages.insert(1 if "command_center" in command_pages else 0, page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "human_consequence_center": "Product Architecture + Founder Pro + Accessibility",
++        "human_consequence_center": "Global Search + Timeline + Founder Center",
+         "interactive_scenario_builder": "Interactive Scenario Builder",
+         "consequence_chain_map": "Consequence Chain Map",
+         "hospital_demo_center": "Hospital Demo",
+@@ -15422,7 +15432,7 @@
+ 
+     HERO.update({
+         "human_consequence_center": {
+-            "English": ("Product Architecture + Founder Pro + Accessibility", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
++            "English": ("Global Search + Timeline + Founder Center", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
+             "Dansk": ("Menneskelig konsekvens center", "CARE bliver lettest at forstå når konsekvens vises fra menneskets side først.", "Menneskelig konsekvens ≠ Tilladelse"),
+         },
+         "interactive_scenario_builder": {
+@@ -15444,7 +15454,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "Product Architecture + Founder Pro + Accessibility": "Menneskelig konsekvens center",
++        "Global Search + Timeline + Founder Center": "Menneskelig konsekvens center",
+         "Interactive Scenario Builder": "Interaktiv scenario-bygger",
+         "Consequence Chain Map": "Konsekvenskæde-kort",
+         "Hospital Demo": "Hospital demo",
+@@ -15682,7 +15692,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Moves public demo to a small Streamlit-native navigation shell:
+ # Start, Human Consequence, Scenario Builder, Hospital Demo,
+ # Municipality Demo, Reviewer Mode, Downloads, Runtime Health,
+@@ -15953,7 +15963,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Product Navigation</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">st.Page / st.navigation · Observer-only</div>
+         </div>
+@@ -15966,7 +15976,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Adds language audit, language coverage center, native-navigation
+ # language selector, stability matrix and public language showcase.
+ # Audit improves review only. It does not create authority.
+@@ -16295,7 +16305,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Language + Stability</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">EN/DK audit · native nav · observer-only</div>
+         </div>
+@@ -16308,7 +16318,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Fixes visible native navigation fallback warning, deduplicates
+ # native pages, adds executive dashboard, global search, platform
+ # status, founder story center and release readiness.
+@@ -16711,7 +16721,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Dashboard</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · status · readiness · observer-only</div>
+         </div>
+@@ -16728,7 +16738,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Adds richer founder story, visual mission page, human timeline,
+ # public founder cards and a polished executive home.
+ # Founder context improves understanding only. It grants no authority.
+@@ -17076,7 +17086,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
+ # Adds product architecture center, founder pro, accessibility/WCAG-style
+ # checklist, Search v2, Reviewer Pro and Public Demo Mode.
+ # These are presentation/review improvements only.
+@@ -17388,7 +17398,528 @@
+ 
+ 
+ 
++
++
++# ============================================================
++# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# Adds CARE in 5 Minutes, Global Search Pro, Timeline Explorer,
++# Founder Center Pro, Knowledge Graph and Public Navigation Hub.
++# Search, timeline and story are review surfaces only.
++# ============================================================
++
++V190_PAGES = [
++    "v19_public_navigation_hub",
++    "v19_care_in_5_minutes",
++    "v19_global_search_pro",
++    "v19_timeline_explorer",
++    "v19_founder_center_pro",
++    "v19_knowledge_graph_center",
++]
++
++V190_TIMELINE = [
++    {
++        "id": "origin_2014",
++        "year": "2014",
++        "title_en": "Human consequence becomes real",
++        "title_da": "Menneskelig konsekvens bliver virkelig",
++        "body_en": "CARE is grounded in the lived reality that consequence is not abstract once it reaches a person.",
++        "body_da": "CARE er forankret i den levede virkelighed: konsekvens er ikke abstrakt, når den rammer et menneske.",
++        "boundary": "Story ≠ Authority",
++    },
++    {
++        "id": "rehab",
++        "year": "Rebuild",
++        "title_en": "Recovery and reconstruction",
++        "title_da": "Genopbygning og recovery",
++        "body_en": "The human side of systems becomes visible: safety, language, energy, continuity and dignity.",
++        "body_da": "Den menneskelige side af systemer bliver synlig: tryghed, sprog, energi, kontinuitet og værdighed.",
++        "boundary": "Experience ≠ Bind",
++    },
++    {
++        "id": "vnext474",
++        "year": "CARE vNEXT474",
++        "title_en": "Boundary-time and reality-first execution",
++        "title_da": "Boundary-time og reality-first eksekvering",
++        "body_en": "Execution cannot outrun proof. If exact-boundary proof is missing, no admissibility.",
++        "body_da": "Eksekvering må ikke løbe fra proof. Hvis exact-boundary proof mangler, ingen admissibility.",
++        "boundary": "Proof required",
++    },
++    {
++        "id": "vnext485",
++        "year": "CARE vNEXT485",
++        "title_en": "No remaining escape surface",
++        "title_da": "Ingen resterende escape surface",
++        "body_en": "No signal, story, legality, semantics or domain validity can become execution authority without bind.",
++        "body_da": "Intet signal, historie, legalitet, semantik eller domæne-validitet kan blive eksekveringsautoritet uden bind.",
++        "boundary": "Signal ≠ Authority",
++    },
++    {
++        "id": "vnext519",
++        "year": "CARE vNEXT519",
++        "title_en": "No residual capability",
++        "title_da": "Ingen residual capability",
++        "body_en": "If bind fails, no latent or deferred capability may survive to become effect later.",
++        "body_da": "Hvis bind fejler, må ingen latent eller udsat capability overleve og blive effekt senere.",
++        "boundary": "No bind -> no future effect",
++    },
++    {
++        "id": "vnext802",
++        "year": "CARE vNEXT802",
++        "title_en": "Governance friction must not be optimized away",
++        "title_da": "Governance-friktion må ikke optimeres væk",
++        "body_en": "Efficiency cannot remove HOLD states, bind checks or admissibility pauses when they protect consequence boundaries.",
++        "body_da": "Effektivitet må ikke fjerne HOLD-states, bind-checks eller admissibility-pauser, når de beskytter konsekvensgrænser.",
++        "boundary": "Efficiency ≠ Authority",
++    },
++    {
++        "id": "vnext821",
++        "year": "CARE vNEXT821",
++        "title_en": "Semantic reality integrity",
++        "title_da": "Semantisk reality integrity",
++        "body_en": "Correct data with wrong meaning is still invalid consequence.",
++        "body_da": "Korrekte data med forkert betydning er stadig ugyldig konsekvens.",
++        "boundary": "Meaning drift -> HOLD",
++    },
++    {
++        "id": "vnext838",
++        "year": "CARE vNEXT838",
++        "title_en": "Fragmented human reality",
++        "title_da": "Fragmenteret menneskelig virkelighed",
++        "body_en": "A person should not be forced to reconnect reality across systems while trapped inside consequence.",
++        "body_da": "Et menneske bør ikke tvinges til at samle virkelighed mellem systemer, mens det allerede er fanget i konsekvens.",
++        "boundary": "Missing reality -> HOLD",
++    },
++    {
++        "id": "vnext858",
++        "year": "CARE vNEXT858",
++        "title_en": "Refusal invalidation propagation",
++        "title_da": "Refusal invalidation propagation",
++        "body_en": "Local refusal is not boundary-complete if inherited effect-capability remains realizable elsewhere.",
++        "body_da": "Lokal refusal er ikke boundary-complete, hvis inherited effect-capability stadig kan realiseres andetsteds.",
++        "boundary": "No bind -> no distributed re-entry",
++    },
++    {
++        "id": "runtime_v18",
++        "year": "Runtime v18",
++        "title_en": "Product architecture and public demo surface",
++        "title_da": "Produktarkitektur og offentlig demo-flade",
++        "body_en": "CARE becomes easier to inspect: architecture, founder context, accessibility, search and reviewer mode.",
++        "body_da": "CARE bliver lettere at inspicere: arkitektur, founder-kontekst, tilgængelighed, søgning og reviewer mode.",
++        "boundary": "Demo ≠ Deployment",
++    },
++    {
++        "id": "runtime_v19",
++        "year": "Runtime v19",
++        "title_en": "Search, timeline and knowledge graph",
++        "title_da": "Søgning, tidslinje og knowledge graph",
++        "body_en": "CARE becomes navigable: one search surface, one timeline, one founder center and one concept map.",
++        "body_da": "CARE bliver navigerbar: én søgeflade, én tidslinje, ét founder-center og ét begrebskort.",
++        "boundary": "Navigation ≠ Authority",
++    },
++]
++
++V190_CONCEPTS = [
++    {"id": "proof", "label_en": "Proof", "label_da": "Bevis", "parent": "CARE", "note_en": "Evidence must be current before consequence.", "note_da": "Evidens skal være aktuel før konsekvens."},
++    {"id": "admissibility", "label_en": "Admissibility", "label_da": "Admissibility", "parent": "Proof", "note_en": "A transition must be admissible at the boundary.", "note_da": "En transition skal være admissible ved grænsen."},
++    {"id": "authority", "label_en": "Authority", "label_da": "Autoritet", "parent": "Admissibility", "note_en": "Authority cannot be inferred from visibility or usefulness.", "note_da": "Autoritet kan ikke udledes af synlighed eller nytte."},
++    {"id": "bind", "label_en": "Bind", "label_da": "Bind", "parent": "Authority", "note_en": "No bind means no effect-capable path.", "note_da": "Ingen bind betyder ingen effect-capable path."},
++    {"id": "effect", "label_en": "Effect", "label_da": "Effekt", "parent": "Bind", "note_en": "Effect must not become real without valid bind.", "note_da": "Effekt må ikke blive virkelig uden gyldigt bind."},
++    {"id": "human_consequence", "label_en": "Human consequence", "label_da": "Menneskelig konsekvens", "parent": "Effect", "note_en": "No bind -> no human consequence.", "note_da": "Ingen bind -> ingen menneskelig konsekvens."},
++    {"id": "hold", "label_en": "HOLD", "label_da": "HOLD", "parent": "Admissibility", "note_en": "UNKNOWN -> HOLD.", "note_da": "UKENDT -> HOLD."},
++    {"id": "observer", "label_en": "Observer", "label_da": "Observer", "parent": "CARE", "note_en": "Observation is not authority.", "note_da": "Observation er ikke autoritet."},
++]
++
++def v190_apply_patch() -> None:
++    GROUPS["navigator_v19"] = V190_PAGES[:]
++    public_pages = GROUPS.setdefault("public_demo_v15", [])
++    for page in reversed(V190_PAGES):
++        if page not in public_pages:
++            public_pages.insert(0, page)
++
++    PAGE_LABELS.setdefault("English", {}).update({
++        "command_center": "CARE Navigator",
++        "v19_public_navigation_hub": "CARE Navigator",
++        "v19_care_in_5_minutes": "CARE in 5 Minutes",
++        "v19_global_search_pro": "Global Search Pro",
++        "v19_timeline_explorer": "Timeline Explorer",
++        "v19_founder_center_pro": "Founder Center Pro",
++        "v19_knowledge_graph_center": "Knowledge Graph",
++        "navigator_v19": "Navigator v19",
++    })
++    PAGE_LABELS.setdefault("Dansk", {}).update({
++        "command_center": "CARE Navigator",
++        "v19_public_navigation_hub": "CARE Navigator",
++        "v19_care_in_5_minutes": "CARE på 5 minutter",
++        "v19_global_search_pro": "Global søgning Pro",
++        "v19_timeline_explorer": "Tidslinje explorer",
++        "v19_founder_center_pro": "Founder Center Pro",
++        "v19_knowledge_graph_center": "Knowledge Graph",
++        "navigator_v19": "Navigator v19",
++    })
++
++    HERO.update({
++        "v19_public_navigation_hub": {
++            "English": ("CARE Navigator", "One front door for CARE: learn it, search it, trace it, challenge it and understand why it exists.", "Navigation ≠ Authority"),
++            "Dansk": ("CARE Navigator", "Én hovedindgang til CARE: lær det, søg i det, følg det, udfordr det og forstå hvorfor det findes.", "Navigation ≠ Autoritet"),
++        },
++        "v19_care_in_5_minutes": {
++            "English": ("CARE in 5 Minutes", "A short explanation for people seeing CARE for the first time.", "Explanation ≠ Permission"),
++            "Dansk": ("CARE på 5 minutter", "En kort forklaring til mennesker der ser CARE for første gang.", "Forklaring ≠ Tilladelse"),
++        },
++        "v19_global_search_pro": {
++            "English": ("Global Search Pro", "Search pages, concepts, scenarios, timeline entries and founder/public demo text.", "Search ≠ Bind"),
++            "Dansk": ("Global søgning Pro", "Søg i sider, begreber, scenarier, tidslinje-punkter og founder/public demo-tekst.", "Søgning ≠ Bind"),
++        },
++        "v19_timeline_explorer": {
++            "English": ("Timeline Explorer", "Explore CARE from human origin to vNEXT858 and the public runtime.", "Timeline ≠ Authority"),
++            "Dansk": ("Tidslinje explorer", "Udforsk CARE fra menneskelig oprindelse til vNEXT858 og public runtime.", "Tidslinje ≠ Autoritet"),
++        },
++        "v19_founder_center_pro": {
++            "English": ("Founder Center Pro", "A cleaner founder page for public demos: human reason, mission, safe claims and boundaries.", "Founder ≠ Authority"),
++            "Dansk": ("Founder Center Pro", "En renere founder-side til public demos: menneskelig grund, mission, sikre claims og grænser.", "Founder ≠ Autoritet"),
++        },
++        "v19_knowledge_graph_center": {
++            "English": ("Knowledge Graph", "A readable concept map of CARE: proof, admissibility, authority, bind, effect and human consequence.", "Graph ≠ Execution"),
++            "Dansk": ("Knowledge Graph", "Et læsbart begrebskort over CARE: bevis, admissibility, autoritet, bind, effekt og menneskelig konsekvens.", "Graf ≠ Eksekvering"),
++        },
++    })
++
++    DA_TRANSLATIONS.update({
++        "CARE Navigator": "CARE Navigator",
++        "CARE in 5 Minutes": "CARE på 5 minutter",
++        "Global Search Pro": "Global søgning Pro",
++        "Timeline Explorer": "Tidslinje explorer",
++        "Founder Center Pro": "Founder Center Pro",
++        "Knowledge Graph": "Knowledge Graph",
++        "Search result": "Søgeresultat",
++        "Timeline entry": "Tidslinje-punkt",
++        "Concept": "Begreb",
++        "Human origin": "Menneskelig oprindelse",
++        "Core rule": "Kerneregel",
++        "Safe public claim": "Sikker offentlig claim",
++        "Do not claim": "Påstå ikke",
++        "No bind -> no human consequence": "Ingen bind -> ingen menneskelig konsekvens",
++        "UNKNOWN -> HOLD": "UKENDT -> HOLD",
++    })
++
++v190_apply_patch()
++
++def v190_da() -> bool:
++    return current_lang() == "Dansk"
++
++def v190_label(en: str, da: str) -> str:
++    return da if v190_da() else en
++
++def v190_search_index() -> List[Dict[str, Any]]:
++    items = []
++    labels_en = PAGE_LABELS.get("English", {})
++    labels_da = PAGE_LABELS.get("Dansk", {})
++
++    for route, fn in ROUTES.items():
++        hero = HERO.get(route, {})
++        groups = [g for g, pages in GROUPS.items() if route in pages]
++        items.append({
++            "type": "page",
++            "title_en": labels_en.get(route, route.replace("_", " ").title()),
++            "title_da": labels_da.get(route, route.replace("_", " ").title()),
++            "route": route,
++            "body_en": " ".join(hero.get("English", ())) + " " + " ".join(groups),
++            "body_da": " ".join(hero.get("Dansk", ())) + " " + " ".join(groups),
++            "boundary": "Page ≠ Authority",
++        })
++
++    for entry in V190_TIMELINE:
++        items.append({
++            "type": "timeline",
++            "title_en": entry["title_en"],
++            "title_da": entry["title_da"],
++            "route": entry["id"],
++            "body_en": f"{entry['year']} {entry['body_en']} {entry['boundary']}",
++            "body_da": f"{entry['year']} {entry['body_da']} {entry['boundary']}",
++            "boundary": entry["boundary"],
++        })
++
++    for concept in V190_CONCEPTS:
++        items.append({
++            "type": "concept",
++            "title_en": concept["label_en"],
++            "title_da": concept["label_da"],
++            "route": concept["id"],
++            "body_en": f"{concept['parent']} {concept['note_en']}",
++            "body_da": f"{concept['parent']} {concept['note_da']}",
++            "boundary": "Concept ≠ Bind",
++        })
++
++    safe_messages = [
++        ("CARE is about people before systems.", "CARE handler om mennesker før systemer.", "Mission ≠ Deployment"),
++        ("No proof -> no bind -> no effect-capable path -> no effect.", "Ingen bevis -> ingen bind -> ingen effect-capable path -> ingen effekt.", "Rule ≠ Execution"),
++        ("No bind -> no human consequence.", "Ingen bind -> ingen menneskelig konsekvens.", "Message ≠ Authority"),
++        ("Founder story is context, not authority.", "Founder-historie er kontekst, ikke autoritet.", "Story ≠ Authority"),
++    ]
++    for idx, (en, da, boundary) in enumerate(safe_messages, 1):
++        items.append({
++            "type": "public copy",
++            "title_en": f"Public message {idx}",
++            "title_da": f"Offentlig besked {idx}",
++            "route": f"public_message_{idx}",
++            "body_en": en,
++            "body_da": da,
++            "boundary": boundary,
++        })
++    return items
++
++def page_v19_public_navigation_hub() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    if callable(globals().get("v170_banner")):
++        v170_banner(
++            v190_label("CARE Navigator", "CARE Navigator"),
++            v190_label(
++                "A simpler way into CARE: understand it in five minutes, search everything, follow the timeline, see the founder context and inspect the concept graph.",
++                "En enklere vej ind i CARE: forstå det på fem minutter, søg i alt, følg tidslinjen, se founder-kontekst og inspicér begrebsgrafen.",
++            ),
++            "Navigator v19",
++        )
++    else:
++        render_hero("v19_public_navigation_hub")
++
++    if callable(globals().get("v129_stats")):
++        v129_stats([
++            ("Start" if not v190_da() else "Start", "5 min", "CARE intro"),
++            ("Search" if not v190_da() else "Søgning", str(len(v190_search_index())), "indexed items"),
++            ("Timeline" if not v190_da() else "Tidslinje", str(len(V190_TIMELINE)), "milestones"),
++            ("Authority" if not v190_da() else "Autoritet", "NO", "observer-only"),
++        ])
++
++    rows = [
++        {"Go to": "CARE in 5 Minutes", "Purpose": "Explain CARE simply.", "Boundary": "Explanation ≠ Permission"},
++        {"Go to": "Global Search Pro", "Purpose": "Find pages, concepts and timeline items.", "Boundary": "Search ≠ Bind"},
++        {"Go to": "Timeline Explorer", "Purpose": "Show the path from human origin to runtime.", "Boundary": "Timeline ≠ Authority"},
++        {"Go to": "Founder Center Pro", "Purpose": "Explain the human mission safely.", "Boundary": "Story ≠ Authority"},
++        {"Go to": "Knowledge Graph", "Purpose": "Make CARE concepts easier to understand.", "Boundary": "Graph ≠ Execution"},
++    ]
++    if v190_da():
++        rows = [
++            {"Gå til": "CARE på 5 minutter", "Formål": "Forklar CARE enkelt.", "Grænse": "Forklaring ≠ Tilladelse"},
++            {"Gå til": "Global søgning Pro", "Formål": "Find sider, begreber og tidslinje-punkter.", "Grænse": "Søgning ≠ Bind"},
++            {"Gå til": "Tidslinje explorer", "Formål": "Vis vejen fra menneskelig oprindelse til runtime.", "Grænse": "Tidslinje ≠ Autoritet"},
++            {"Gå til": "Founder Center Pro", "Formål": "Forklar den menneskelige mission sikkert.", "Grænse": "Historie ≠ Autoritet"},
++            {"Gå til": "Knowledge Graph", "Formål": "Gør CARE-begreber lettere at forstå.", "Grænse": "Graf ≠ Eksekvering"},
++        ]
++    dark_table(rows)
++
++def page_v19_care_in_5_minutes() -> None:
++    render_hero("v19_care_in_5_minutes")
++    rows = [
++        {"Minute": "1", "Question": "What is CARE?", "Answer": "CARE is a runtime boundary idea for human consequence.", "Boundary": "Explanation ≠ Authority"},
++        {"Minute": "2", "Question": "What problem does it address?", "Answer": "Systems can look confident while proof, authority, state or bind is missing.", "Boundary": "Confidence ≠ Bind"},
++        {"Minute": "3", "Question": "What is the core rule?", "Answer": "No proof -> no bind -> no effect-capable path -> no effect.", "Boundary": "Rule ≠ Execution"},
++        {"Minute": "4", "Question": "What happens under uncertainty?", "Answer": "UNKNOWN -> HOLD. Uncertainty must not become human consequence.", "Boundary": "Unknown ≠ Permission"},
++        {"Minute": "5", "Question": "What should people remember?", "Answer": "No bind -> no human consequence.", "Boundary": "Message ≠ Authority"},
++    ]
++    if v190_da():
++        rows = [
++            {"Minut": "1", "Spørgsmål": "Hvad er CARE?", "Svar": "CARE er en runtime-boundary idé for menneskelig konsekvens.", "Grænse": "Forklaring ≠ Autoritet"},
++            {"Minut": "2", "Spørgsmål": "Hvilket problem adresserer det?", "Svar": "Systemer kan virke sikre, mens bevis, autoritet, state eller bind mangler.", "Grænse": "Sikkerhedsfølelse ≠ Bind"},
++            {"Minut": "3", "Spørgsmål": "Hvad er kernereglen?", "Svar": "Ingen bevis -> ingen bind -> ingen effect-capable path -> ingen effekt.", "Grænse": "Regel ≠ Eksekvering"},
++            {"Minut": "4", "Spørgsmål": "Hvad sker der ved usikkerhed?", "Svar": "UKENDT -> HOLD. Usikkerhed må ikke blive menneskelig konsekvens.", "Grænse": "Ukendt ≠ Tilladelse"},
++            {"Minut": "5", "Spørgsmål": "Hvad skal folk huske?", "Svar": "Ingen bind -> ingen menneskelig konsekvens.", "Grænse": "Budskab ≠ Autoritet"},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v19_care_in_5_minutes", "rows": rows, "boundary": "CARE explanation is not authority."})
++    json_download_button("Download CARE in 5 Minutes JSON", payload, "CARE_v19_0_care_in_5_minutes")
++
++def page_v19_global_search_pro() -> None:
++    render_hero("v19_global_search_pro")
++    q = st.text_input(v190_label("Search CARE", "Søg i CARE"), value="", placeholder="bind, HOLD, founder, hospital, kommune, vNEXT858...")
++    index = v190_search_index()
++    ql = q.strip().lower()
++
++    if ql:
++        results = [item for item in index if ql in " ".join(str(v) for v in item.values()).lower()]
++    else:
++        results = index[:40]
++
++    rows = []
++    for item in results[:150]:
++        rows.append({
++            v190_label("Type", "Type"): item["type"],
++            v190_label("Search result", "Søgeresultat"): item["title_da"] if v190_da() else item["title_en"],
++            "Route/ID": item["route"],
++            v190_label("Content", "Indhold"): item["body_da"] if v190_da() else item["body_en"],
++            v190_label("Boundary", "Grænse"): item["boundary"],
++        })
++    st.caption(v190_label(f"{len(results)} result(s). Search result is not authority.", f"{len(results)} resultat(er). Søgeresultat er ikke autoritet."))
++    dark_table(rows)
++
++    payload = finalize_report_hash({"module": "v19_global_search_pro", "query": q, "count": len(results), "results": results[:150], "boundary": "Search is not authority."})
++    json_download_button("Download Global Search JSON", payload, "CARE_v19_0_global_search")
++
++def page_v19_timeline_explorer() -> None:
++    render_hero("v19_timeline_explorer")
++    selected = st.selectbox(
++        v190_label("Choose milestone", "Vælg milepæl"),
++        [entry["id"] for entry in V190_TIMELINE],
++        format_func=lambda k: next((e["year"] + " — " + (e["title_da"] if v190_da() else e["title_en"]) for e in V190_TIMELINE if e["id"] == k), k),
++    )
++    entry = next(e for e in V190_TIMELINE if e["id"] == selected)
++
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    st.markdown(f"""
++<div class="care-v17-timeline">
++  <div class="care-v17-step">
++    <div class="year">{escape(entry['year'])}</div>
++    <div class="text">{escape(entry['title_da'] if v190_da() else entry['title_en'])}</div>
++    <div class="note">{escape(entry['body_da'] if v190_da() else entry['body_en'])}</div>
++    <div class="note"><b>{escape(entry['boundary'])}</b></div>
++  </div>
++</div>
++""", unsafe_allow_html=True)
++
++    rows = []
++    for e in V190_TIMELINE:
++        rows.append({
++            v190_label("Milestone", "Milepæl"): e["year"],
++            v190_label("Title", "Titel"): e["title_da"] if v190_da() else e["title_en"],
++            v190_label("Meaning", "Betydning"): e["body_da"] if v190_da() else e["body_en"],
++            v190_label("Boundary", "Grænse"): e["boundary"],
++        })
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v19_timeline_explorer", "selected": entry, "timeline": V190_TIMELINE, "boundary": "Timeline is not authority."})
++    json_download_button("Download Timeline JSON", payload, "CARE_v19_0_timeline")
++
++def page_v19_founder_center_pro() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    render_hero("v19_founder_center_pro")
++
++    rows = [
++        {"Section": "Founder", "Public wording": "Nick Vejle, Founder of CARE.", "Do not claim": "Founder story is authority."},
++        {"Section": "Human reason", "Public wording": "CARE is about people before systems.", "Do not claim": "Personal story replaces proof."},
++        {"Section": "Mission", "Public wording": "Human consequence should not become real without valid grounding.", "Do not claim": "Mission is deployment authority."},
++        {"Section": "Core line", "Public wording": "No bind -> no human consequence.", "Do not claim": "Message itself creates bind."},
++        {"Section": "Public demo", "Public wording": "Observer-only public demo for review.", "Do not claim": "Demo can make real decisions."},
++    ]
++    if v190_da():
++        rows = [
++            {"Sektion": "Founder", "Offentlig formulering": "Nick Vejle, Founder of CARE.", "Påstå ikke": "Founder-historie er autoritet."},
++            {"Sektion": "Menneskelig grund", "Offentlig formulering": "CARE handler om mennesker før systemer.", "Påstå ikke": "Personlig historie erstatter proof."},
++            {"Sektion": "Mission", "Offentlig formulering": "Menneskelig konsekvens bør ikke blive virkelig uden gyldigt grundlag.", "Påstå ikke": "Mission er deployment-autoritet."},
++            {"Sektion": "Kernelinje", "Offentlig formulering": "Ingen bind -> ingen menneskelig konsekvens.", "Påstå ikke": "Budskabet selv skaber bind."},
++            {"Sektion": "Public demo", "Offentlig formulering": "Observer-only public demo til review.", "Påstå ikke": "Demo kan træffe virkelige beslutninger."},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v19_founder_center_pro", "rows": rows, "boundary": "Founder center is context only."})
++    json_download_button("Download Founder Center JSON", payload, "CARE_v19_0_founder_center")
++
++def page_v19_knowledge_graph_center() -> None:
++    render_hero("v19_knowledge_graph_center")
++    rows = []
++    for c in V190_CONCEPTS:
++        rows.append({
++            v190_label("Concept", "Begreb"): c["label_da"] if v190_da() else c["label_en"],
++            v190_label("Parent", "Forbundet med"): c["parent"],
++            v190_label("Meaning", "Betydning"): c["note_da"] if v190_da() else c["note_en"],
++            v190_label("Boundary", "Grænse"): "Concept ≠ Bind",
++        })
++    dark_table(rows)
++
++    st.code("""CARE
++├─ Proof
++│  └─ Admissibility
++│     ├─ HOLD
++│     └─ Authority
++│        └─ Bind
++│           └─ Effect
++│              └─ Human consequence
++└─ Observer
++   └─ Visibility ≠ Authority""")
++
++    payload = finalize_report_hash({"module": "v19_knowledge_graph_center", "concepts": V190_CONCEPTS, "boundary": "Knowledge graph is not execution."})
++    json_download_button("Download Knowledge Graph JSON", payload, "CARE_v19_0_knowledge_graph")
++
++def page_command_center() -> None:
++    page_v19_public_navigation_hub()
++
++def v190_native_pages() -> Dict[str, List[Any]]:
++    lang = current_lang()
++    labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
++    used_urls = set()
++
++    def make_page(key: str, icon: str = "•") -> Any:
++        title = labels.get(key, key.replace("_", " ").title())
++        base_url = key.replace("_", "-")
++        url = base_url
++        suffix = 2
++        while url in used_urls:
++            url = f"{base_url}-{suffix}"
++            suffix += 1
++        used_urls.add(url)
++        return st.Page(ROUTES[key], title=title, icon=icon, url_path=url)
++
++    sections = {
++        "Navigator" if lang == "English" else "Navigator": [
++            ("v19_public_navigation_hub", "🏠"),
++            ("v19_care_in_5_minutes", "⏱️"),
++            ("v19_global_search_pro", "🔎"),
++            ("v19_timeline_explorer", "🧭"),
++            ("v19_founder_center_pro", "👤"),
++            ("v19_knowledge_graph_center", "🕸️"),
++        ],
++        "Product" if lang == "English" else "Produkt": [
++            ("v18_product_home", "🏠"),
++            ("v18_founder_pro_center", "👤"),
++            ("v18_public_demo_mode", "🧭"),
++            ("v18_accessibility_center", "♿"),
++            ("v18_reviewer_pro_center", "🧪"),
++            ("v18_product_architecture_center", "🏗️"),
++        ],
++        "Review" if lang == "English" else "Review": [
++            ("reviewer_mode", "🧪"),
++            ("v151_language_audit_center", "🌐"),
++            ("v151_stability_matrix_center", "🛡️"),
++            ("v16_release_readiness_center", "🚀"),
++        ],
++        "Advanced" if lang == "English" else "Avanceret": [
++            ("v15_advanced_archive_center", "🗂️"),
++            ("clean_download_center", "📥"),
++        ],
++    }
++
++    result = {}
++    for section, pairs in sections.items():
++        unique = []
++        seen = set()
++        for key, icon in pairs:
++            if key in ROUTES and key not in seen:
++                unique.append(make_page(key, icon))
++                seen.add(key)
++        result[section] = unique
++    return result
++
++def v190_render_nav_header() -> None:
++    st.sidebar.markdown(
++        """
++        <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
++                    background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Navigator</div>
++          <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · timeline · founder · graph</div>
++        </div>
++        """,
++        unsafe_allow_html=True,
++    )
++
++
++
+ ROUTES = {
++    "v19_public_navigation_hub": page_v19_public_navigation_hub,
++    "v19_care_in_5_minutes": page_v19_care_in_5_minutes,
++    "v19_global_search_pro": page_v19_global_search_pro,
++    "v19_timeline_explorer": page_v19_timeline_explorer,
++    "v19_founder_center_pro": page_v19_founder_center_pro,
++    "v19_knowledge_graph_center": page_v19_knowledge_graph_center,
+     "v18_product_home": page_v18_product_home,
+     "v18_product_architecture_center": page_v18_product_architecture_center,
+     "v18_founder_pro_center": page_v18_founder_pro_center,
+@@ -17638,15 +18169,12 @@
+ 
+ def main() -> None:
+     v129_apply_professional_css()
+-    v160_render_nav_header()
++    v190_render_nav_header()
+     language_selector()
+ 
+-    # v16.0: unique native navigation. If Streamlit raises a navigation
+-    # architecture exception, the user sees the clean fallback router, not a
+-    # technical error box.
+     if hasattr(st, "navigation") and hasattr(st, "Page"):
+         try:
+-            pg = st.navigation(v160_native_pages(), position="sidebar", expanded=True)
++            pg = st.navigation(v190_native_pages(), position="sidebar", expanded=True)
+             pg.run()
+             footer()
+             return

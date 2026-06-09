@@ -1,0 +1,14 @@
+{
+  "release": "CARE Runtime v19.0",
+  "navigator_pages": [
+    "v19_public_navigation_hub",
+    "v19_care_in_5_minutes",
+    "v19_global_search_pro",
+    "v19_timeline_explorer",
+    "v19_founder_center_pro",
+    "v19_knowledge_graph_center"
+  ],
+  "timeline_count": 11,
+  "concept_count": 8,
+  "boundary": "Search, timeline, founder story and graph do not create authority."
+}
