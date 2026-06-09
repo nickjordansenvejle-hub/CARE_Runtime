@@ -1,0 +1,12 @@
+{
+  "release": "CARE Runtime v18.0",
+  "recommended_structure": {
+    "app.py": "minimal Streamlit entrypoint",
+    "pages/": "public and advanced pages",
+    "components/": "UI cards, hero blocks, tables, downloads, PDFs",
+    "data/": "language registry, routes, scenarios, glossary",
+    "reports/": "QA, SHA256, release notes",
+    "tests/": "route, language, accessibility, download checks"
+  },
+  "boundary": "Architecture is not execution. Product polish is not authority."
+}

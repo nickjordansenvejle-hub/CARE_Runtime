@@ -1,0 +1,722 @@
+--- CARE_Runtime_v17_0_Founder_Story_Visual_Polish.py
++++ CARE_Runtime_v18_0_Product_Architecture_Founder_Pro_Accessibility.py
+@@ -25,7 +25,7 @@
+     PDF_AVAILABLE = False
+ 
+ # ============================================================
+-# CARE Runtime v17.0 Founder Story + Visual Polish
++# CARE Runtime v18.0 Product Architecture + Founder Pro + Accessibility
+ # Built from CARE Runtime v8.8 and rebuilt with stable internal
+ # page keys, stronger Founder of CARE presence, cleaner bilingual
+ # routing, professional UI polish, and full PDF export support.
+@@ -40,7 +40,7 @@
+ # ============================================================
+ 
+ st.set_page_config(
+-    page_title="CARE Runtime v17.0.1 · All-In Consolidated + Sidebar Stability",
++    page_title="CARE Runtime v18.0.1 · All-In Consolidated + Sidebar Stability",
+     page_icon="🛡️",
+     layout="wide",
+     initial_sidebar_state="expanded",
+@@ -48,8 +48,8 @@
+ 
+ BASELINE = "CARE vNEXT858 FINAL CLEAN — FIXED CONTROL · F765"
+ CASE_VERSION = "vNEXT858 F765"
+-PLATFORM_NAME = "CARE Runtime v17.0"
+-PLATFORM_SUBTITLE = "Founder Story + Visual Polish"
++PLATFORM_NAME = "CARE Runtime v18.0"
++PLATFORM_SUBTITLE = "Product Architecture + Founder Pro + Accessibility"
+ CORE_RULE = "No proof -> no bind -> no effect-capable path -> no effect"
+ UNKNOWN_RULE = "UNKNOWN -> HOLD"
+ HUMAN_RULE = "No bind -> no human consequence"
+@@ -69,6 +69,16 @@
+ 
+ 
+ NON_AUTHORITY_GUARD = {
++    "v180_product_architecture_without_authority": True,
++    "v180_founder_pro_without_bind": True,
++    "v180_accessibility_center_without_permission": True,
++    "v180_search_v2_without_execution": True,
++    "v180_reviewer_pro_without_real_world_decision": True,
++    "v180_public_demo_mode_without_deployment_authority": True,
++    "v180_architecture_manifest_without_authority": True,
++    "accessibility_audit_without_bind": True,
++    "product_architecture_without_execution": True,
++    "public_demo_mode_without_permission": True,
+     "v170_founder_story_plus_without_authority": True,
+     "v170_visual_polish_without_bind": True,
+     "v170_human_timeline_without_permission": True,
+@@ -3170,7 +3180,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Language Selector Recovery
++# CARE Runtime v18.0 — Language Selector Recovery
+ # Restores the missing language_selector() used by the v12.8.1
+ # robust sidebar. Language selection improves access only.
+ # It does not create authority, bind, permission or execution.
+@@ -10522,7 +10532,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 Pressure Testing metadata
++# CARE Runtime v18.0 Pressure Testing metadata
+ # Public pressure testing, red team attempts, challenge records,
+ # boundary visualization and reviewer submissions remain observer-only.
+ # They can inspect, falsify pressure, and expose failure surfaces;
+@@ -10827,7 +10837,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Language improves access. It does not create authority.
+ # ============================================================
+ 
+@@ -10936,7 +10946,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Static inspection only. It does not create authority.
+ # ============================================================
+ 
+@@ -11141,7 +11151,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Visualization only. It does not create authority, bind, execution,
+ # permission or real-world consequence.
+ # ============================================================
+@@ -11366,7 +11376,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Challenge simulation only. It does not create authority, bind,
+ # execution, permission, or real-world consequence.
+ # ============================================================
+@@ -11698,7 +11708,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Review-only separation layer. It does not create authority.
+ # ============================================================
+ 
+@@ -11851,7 +11861,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Richard pressure surface:
+ # The reduction can survive while the ecosystem creates new
+ # legitimacy surfaces around it. This layer tests those surfaces.
+@@ -12112,7 +12122,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Self-Test Center
++# CARE Runtime v18.0 — Runtime Self-Test Center
+ # Static self-inspection only. It does not create authority,
+ # bind, execution, permission, or real-world consequence.
+ # ============================================================
+@@ -12319,7 +12329,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Every visible page must have content. Danish language mode should show
+ # Danish project/story/learning content wherever this patch controls output.
+ # Localization improves access only. It does not create authority.
+@@ -12762,7 +12772,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Completes the self-test windows and adds deeper QA surfaces.
+ # Self-test is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13121,7 +13131,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Fixes route definition order and adds completion audit pages.
+ # Audit is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13483,7 +13493,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # One control center for pages, translations, sidebar health,
+ # downloads and searchable CARE runtime inventory.
+ # Review-only. Completion score does not authorize.
+@@ -13506,7 +13516,7 @@
+             reports.append(page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "care_runtime_completion_center": "CARE Founder Story + Visual Polish",
++        "care_runtime_completion_center": "CARE Product Architecture + Founder Pro + Accessibility",
+         "translation_integrity_center": "Translation Integrity Center",
+         "sidebar_health_dashboard": "Sidebar Health Dashboard",
+         "download_surface_center": "Download Surface Center",
+@@ -13522,7 +13532,7 @@
+ 
+     HERO.update({
+         "care_runtime_completion_center": {
+-            "English": ("CARE Founder Story + Visual Polish", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
++            "English": ("CARE Product Architecture + Founder Pro + Accessibility", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
+             "Dansk": ("CARE runtime completion center", "Ét dashboard for side-udfyldning, sprogdækning, sidebar-health, downloadflader og release-review.", "Completion ≠ Autoritet"),
+         },
+         "translation_integrity_center": {
+@@ -13544,7 +13554,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "CARE Founder Story + Visual Polish": "CARE runtime completion center",
++        "CARE Product Architecture + Founder Pro + Accessibility": "CARE runtime completion center",
+         "Translation Integrity Center": "Oversættelses-integritetscenter",
+         "Sidebar Health Dashboard": "Sidebar health dashboard",
+         "Download Surface Center": "Downloadflade-center",
+@@ -13892,7 +13902,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Universal content overlay + public-source founder context.
+ # Every grouped page receives a visible purpose/boundary block.
+ # Public story is context only. It does not create authority.
+@@ -14288,7 +14298,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Robust route selector. Selection changes page_key directly.
+ # Navigation improves access only. It does not create authority.
+ # ============================================================
+@@ -14297,8 +14307,8 @@
+     lang = language_selector()
+     labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
+ 
+-    st.sidebar.markdown("## CARE Runtime v17.0")
+-    st.sidebar.caption("Founder Story + Visual Polish · vNEXT858 · vNEXT859 HOLD")
++    st.sidebar.markdown("## CARE Runtime v18.0")
++    st.sidebar.caption("Product Architecture + Founder Pro + Accessibility · vNEXT858 · vNEXT859 HOLD")
+ 
+     founder_label = "Founder of CARE" if lang == "English" else "Founder af CARE"
+     st.sidebar.markdown(
+@@ -14405,7 +14415,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Runtime Recovery Diagnostic
++# CARE Runtime v18.0 — Runtime Recovery Diagnostic
+ # Verifies language selector, sidebar route state and route references.
+ # ============================================================
+ 
+@@ -14501,7 +14511,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # A professional presentation layer: mission control, executive
+ # overview, founder timeline, partner readiness and improved sidebar.
+ # Design improves inspection only. It does not create authority.
+@@ -14963,7 +14973,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v17.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Mission Control</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Professional Platform UI · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+@@ -15026,7 +15036,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Public-facing entry points: Start Here, Public Demo Flow,
+ # Reviewer Mode, Clean Download Center and Public Demo QA.
+ # Public demo improves presentation only. It does not authorize.
+@@ -15163,7 +15173,7 @@
+             "CARE asks one public question: should a system be allowed to create consequence for people without valid proof, authority, current state and bind?"
+             if not v130_da()
+             else "CARE stiller ét offentligt spørgsmål: bør et system kunne skabe konsekvens for mennesker uden gyldigt bevis, autoritet, aktuel tilstand og bind?",
+-            "Founder Story + Visual Polish" if not v130_da() else "Founder Story + Visual Polish",
++            "Product Architecture + Founder Pro + Accessibility" if not v130_da() else "Product Architecture + Founder Pro + Accessibility",
+         )
+     else:
+         render_hero("start_here_public_demo")
+@@ -15298,8 +15308,8 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v17.0</div>
+-          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Founder Story + Visual Polish</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Product Architecture + Founder Pro + Accessibility</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Observer-only · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+         """,
+@@ -15375,7 +15385,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Human consequence first: consequence chain, scenario builder,
+ # hospital demo, municipality demo and human impact map.
+ # Demo is observer-only. It grants no authority, bind or execution.
+@@ -15396,7 +15406,7 @@
+             command_pages.insert(1 if "command_center" in command_pages else 0, page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "human_consequence_center": "Founder Story + Visual Polish",
++        "human_consequence_center": "Product Architecture + Founder Pro + Accessibility",
+         "interactive_scenario_builder": "Interactive Scenario Builder",
+         "consequence_chain_map": "Consequence Chain Map",
+         "hospital_demo_center": "Hospital Demo",
+@@ -15412,7 +15422,7 @@
+ 
+     HERO.update({
+         "human_consequence_center": {
+-            "English": ("Founder Story + Visual Polish", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
++            "English": ("Product Architecture + Founder Pro + Accessibility", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
+             "Dansk": ("Menneskelig konsekvens center", "CARE bliver lettest at forstå når konsekvens vises fra menneskets side først.", "Menneskelig konsekvens ≠ Tilladelse"),
+         },
+         "interactive_scenario_builder": {
+@@ -15434,7 +15444,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "Founder Story + Visual Polish": "Menneskelig konsekvens center",
++        "Product Architecture + Founder Pro + Accessibility": "Menneskelig konsekvens center",
+         "Interactive Scenario Builder": "Interaktiv scenario-bygger",
+         "Consequence Chain Map": "Konsekvenskæde-kort",
+         "Hospital Demo": "Hospital demo",
+@@ -15672,7 +15682,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Moves public demo to a small Streamlit-native navigation shell:
+ # Start, Human Consequence, Scenario Builder, Hospital Demo,
+ # Municipality Demo, Reviewer Mode, Downloads, Runtime Health,
+@@ -15943,7 +15953,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v17.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Product Navigation</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">st.Page / st.navigation · Observer-only</div>
+         </div>
+@@ -15956,7 +15966,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Adds language audit, language coverage center, native-navigation
+ # language selector, stability matrix and public language showcase.
+ # Audit improves review only. It does not create authority.
+@@ -16285,7 +16295,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v17.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Language + Stability</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">EN/DK audit · native nav · observer-only</div>
+         </div>
+@@ -16298,7 +16308,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Fixes visible native navigation fallback warning, deduplicates
+ # native pages, adds executive dashboard, global search, platform
+ # status, founder story center and release readiness.
+@@ -16644,6 +16654,15 @@
+         return st.Page(ROUTES[key], title=title, icon=icon, url_path=url)
+ 
+     sections = {
++        "Product" if lang == "English" else "Produkt": [
++            ("v18_product_home", "🏠"),
++            ("v18_founder_pro_center", "👤"),
++            ("v18_public_demo_mode", "🧭"),
++            ("v18_accessibility_center", "♿"),
++            ("v18_search_v2_center", "🔎"),
++            ("v18_reviewer_pro_center", "🧪"),
++            ("v18_product_architecture_center", "🏗️"),
++        ],
+         "Founder" if lang == "English" else "Founder": [
+             ("v17_founder_mission_control", "❤️"),
+             ("v17_founder_story_plus", "👤"),
+@@ -16692,7 +16711,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v17.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v18.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Dashboard</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · status · readiness · observer-only</div>
+         </div>
+@@ -16709,7 +16728,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v17.0 — Founder Story + Visual Polish
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
+ # Adds richer founder story, visual mission page, human timeline,
+ # public founder cards and a polished executive home.
+ # Founder context improves understanding only. It grants no authority.
+@@ -17054,7 +17073,329 @@
+ 
+ 
+ 
++
++
++# ============================================================
++# CARE Runtime v18.0 — Product Architecture + Founder Pro + Accessibility
++# Adds product architecture center, founder pro, accessibility/WCAG-style
++# checklist, Search v2, Reviewer Pro and Public Demo Mode.
++# These are presentation/review improvements only.
++# ============================================================
++
++V180_PRODUCT_PAGES = [
++    "v18_product_home",
++    "v18_product_architecture_center",
++    "v18_founder_pro_center",
++    "v18_accessibility_center",
++    "v18_search_v2_center",
++    "v18_reviewer_pro_center",
++    "v18_public_demo_mode",
++]
++
++def v180_apply_product_architecture_patch() -> None:
++    GROUPS["product_v18"] = V180_PRODUCT_PAGES[:]
++    public_pages = GROUPS.setdefault("public_demo_v15", [])
++    for page in reversed(V180_PRODUCT_PAGES):
++        if page not in public_pages:
++            public_pages.insert(0, page)
++
++    PAGE_LABELS.setdefault("English", {}).update({
++        "command_center": "CARE Product Home",
++        "v18_product_home": "CARE Product Home",
++        "v18_product_architecture_center": "Product Architecture",
++        "v18_founder_pro_center": "Founder Pro",
++        "v18_accessibility_center": "Accessibility Center",
++        "v18_search_v2_center": "Search Everything v2",
++        "v18_reviewer_pro_center": "Reviewer Pro",
++        "v18_public_demo_mode": "Public Demo Mode",
++        "product_v18": "Product v18",
++    })
++    PAGE_LABELS.setdefault("Dansk", {}).update({
++        "command_center": "CARE produktforside",
++        "v18_product_home": "CARE produktforside",
++        "v18_product_architecture_center": "Produktarkitektur",
++        "v18_founder_pro_center": "Founder Pro",
++        "v18_accessibility_center": "Tilgængelighedscenter",
++        "v18_search_v2_center": "Søg i alt v2",
++        "v18_reviewer_pro_center": "Reviewer Pro",
++        "v18_public_demo_mode": "Public demo mode",
++        "product_v18": "Produkt v18",
++    })
++
++    HERO.update({
++        "v18_product_home": {
++            "English": ("CARE Product Home", "A cleaner product-facing entry point: architecture, founder context, accessibility, search and review readiness.", "Product view ≠ Authority"),
++            "Dansk": ("CARE produktforside", "En renere produktrettet indgang: arkitektur, founder-kontekst, tilgængelighed, søgning og review readiness.", "Produktvisning ≠ Autoritet"),
++        },
++        "v18_product_architecture_center": {
++            "English": ("Product Architecture", "Shows how CARE should be organized as a maintainable public demo and future product architecture.", "Architecture ≠ Execution"),
++            "Dansk": ("Produktarkitektur", "Viser hvordan CARE bør organiseres som vedligeholdbar offentlig demo og fremtidig produktarkitektur.", "Arkitektur ≠ Eksekvering"),
++        },
++        "v18_founder_pro_center": {
++            "English": ("Founder Pro", "A stronger public founder page: human reason, mission, safe claims and non-authority boundary.", "Founder ≠ Authority"),
++            "Dansk": ("Founder Pro", "En stærkere offentlig founder-side: menneskelig grund, mission, sikre claims og non-authority boundary.", "Founder ≠ Autoritet"),
++        },
++        "v18_accessibility_center": {
++            "English": ("Accessibility Center", "A WCAG-style public demo checklist for readability, labels, contrast, keyboard flow and language clarity.", "Accessibility ≠ Permission"),
++            "Dansk": ("Tilgængelighedscenter", "En WCAG-lignende public demo-tjekliste for læsbarhed, labels, kontrast, keyboard-flow og sprogklarhed.", "Tilgængelighed ≠ Tilladelse"),
++        },
++        "v18_search_v2_center": {
++            "English": ("Search Everything v2", "Search pages, concepts, scenarios, founder copy, hospitals, municipalities, downloads and review surfaces.", "Search ≠ Bind"),
++            "Dansk": ("Søg i alt v2", "Søg i sider, begreber, scenarier, founder-tekst, hospitaler, kommuner, downloads og review-flader.", "Søgning ≠ Bind"),
++        },
++        "v18_reviewer_pro_center": {
++            "English": ("Reviewer Pro", "A cleaner challenge page for external reviewers: try to convert visibility, story or usefulness into authority.", "Review ≠ Authority"),
++            "Dansk": ("Reviewer Pro", "En renere challenge-side til eksterne reviewers: prøv at gøre synlighed, story eller usefulness til autoritet.", "Review ≠ Autoritet"),
++        },
++        "v18_public_demo_mode": {
++            "English": ("Public Demo Mode", "A five-step guided path for showing CARE to non-technical audiences without overwhelming them.", "Demo ≠ Deployment"),
++            "Dansk": ("Public demo mode", "En fem-trins guidet rute til at vise CARE til ikke-tekniske mennesker uden at overvælde dem.", "Demo ≠ Deployment"),
++        },
++    })
++
++    DA_TRANSLATIONS.update({
++        "CARE Product Home": "CARE produktforside",
++        "Product Architecture": "Produktarkitektur",
++        "Founder Pro": "Founder Pro",
++        "Accessibility Center": "Tilgængelighedscenter",
++        "Search Everything v2": "Søg i alt v2",
++        "Reviewer Pro": "Reviewer Pro",
++        "Public Demo Mode": "Public demo mode",
++        "Product view": "Produktvisning",
++        "Maintainable": "Vedligeholdbar",
++        "Public demo": "Offentlig demo",
++        "Safe claim": "Sikker claim",
++        "Overclaim": "Overclaim",
++        "Accessibility check": "Tilgængelighedstjek",
++        "Keyboard": "Keyboard",
++        "Contrast": "Kontrast",
++        "Plain language": "Klart sprog",
++        "Human first": "Mennesket først",
++    })
++
++v180_apply_product_architecture_patch()
++
++def v180_da() -> bool:
++    return current_lang() == "Dansk"
++
++def v180_product_metrics() -> Dict[str, Any]:
++    try:
++        health = v160_health_payload() if callable(globals().get("v160_health_payload")) else {}
++    except Exception:
++        health = {}
++    try:
++        lang = v151_language_audit_payload() if callable(globals().get("v151_language_audit_payload")) else {}
++    except Exception:
++        lang = {}
++    return {
++        "routes": len(ROUTES),
++        "groups": len(GROUPS),
++        "guards": len(NON_AUTHORITY_GUARD),
++        "language_completion": lang.get("completion_percent", "N/A"),
++        "missing_route_functions": health.get("missing_route_functions", 0),
++        "pdf_available": PDF_AVAILABLE,
++        "native_navigation_available": hasattr(st, "navigation") and hasattr(st, "Page"),
++    }
++
++def page_v18_product_home() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    if callable(globals().get("v170_banner")):
++        v170_banner(
++            "CARE as a public product surface" if not v180_da() else "CARE som offentlig produktflade",
++            "The next version of CARE should feel simple outside and strong inside: clear founder story, clean architecture, accessibility, search and reviewer challenge paths."
++            if not v180_da()
++            else "Den næste version af CARE skal føles enkel udadtil og stærk indadtil: klar founder-historie, ren arkitektur, tilgængelighed, søgning og reviewer challenge-ruter.",
++            "Product v18" if not v180_da() else "Produkt v18",
++        )
++    else:
++        render_hero("v18_product_home")
++
++    m = v180_product_metrics()
++    if callable(globals().get("v129_stats")):
++        v129_stats([
++            ("Routes" if not v180_da() else "Ruter", str(m["routes"]), "available"),
++            ("Language" if not v180_da() else "Sprog", f"{m['language_completion']}%", "EN/DK"),
++            ("Architecture" if not v180_da() else "Arkitektur", "READY", "manifested"),
++            ("Authority" if not v180_da() else "Autoritet", "NO", "demo only"),
++        ])
++
++    rows = [
++        {"Area": "Public surface", "Upgrade": "Fewer choices, clearer start, guided demo mode.", "Boundary": "Clarity ≠ Authority"},
++        {"Area": "Founder context", "Upgrade": "Human story, safe claims, mission and timeline.", "Boundary": "Story ≠ Bind"},
++        {"Area": "Architecture", "Upgrade": "App structure manifest: app, pages, components, data, reports.", "Boundary": "Architecture ≠ Execution"},
++        {"Area": "Accessibility", "Upgrade": "Readable language, contrast, labels, keyboard and mobile checks.", "Boundary": "Accessibility ≠ Permission"},
++        {"Area": "Review", "Upgrade": "Reviewer Pro challenges: visibility/story/usefulness/DOI/completion cannot become authority.", "Boundary": "Review ≠ Authority"},
++    ]
++    if v180_da():
++        rows = [
++            {"Område": "Offentlig flade", "Forbedring": "Færre valg, klarere start, guidet demo mode.", "Grænse": "Klarhed ≠ Autoritet"},
++            {"Område": "Founder-kontekst", "Forbedring": "Menneskelig historie, sikre claims, mission og tidslinje.", "Grænse": "Historie ≠ Bind"},
++            {"Område": "Arkitektur", "Forbedring": "App-struktur manifest: app, pages, components, data, reports.", "Grænse": "Arkitektur ≠ Eksekvering"},
++            {"Område": "Tilgængelighed", "Forbedring": "Læsbar tekst, kontrast, labels, keyboard og mobil-checks.", "Grænse": "Tilgængelighed ≠ Tilladelse"},
++            {"Område": "Review", "Forbedring": "Reviewer Pro challenges: visibility/story/usefulness/DOI/completion kan ikke blive authority.", "Grænse": "Review ≠ Autoritet"},
++        ]
++    dark_table(rows)
++
++def page_v18_product_architecture_center() -> None:
++    render_hero("v18_product_architecture_center")
++    if v180_da():
++        rows = [
++            {"Mappe": "app.py", "Formål": "Minimal entrypoint og navigation", "Status": "NEXT STRUCTURE"},
++            {"Mappe": "pages/", "Formål": "Public demo pages og advanced pages", "Status": "MANIFESTED"},
++            {"Mappe": "components/", "Formål": "Cards, hero, tables, PDF/download helpers", "Status": "MANIFESTED"},
++            {"Mappe": "data/", "Formål": "Language registry, routes, demo scenarios, CARE glossary", "Status": "MANIFESTED"},
++            {"Mappe": "reports/", "Formål": "QA reports, SHA, release notes", "Status": "MANIFESTED"},
++            {"Mappe": "tests/", "Formål": "Route/function/language/a11y checks", "Status": "NEXT"},
++        ]
++    else:
++        rows = [
++            {"Folder": "app.py", "Purpose": "Minimal entrypoint and navigation", "Status": "NEXT STRUCTURE"},
++            {"Folder": "pages/", "Purpose": "Public demo pages and advanced pages", "Status": "MANIFESTED"},
++            {"Folder": "components/", "Purpose": "Cards, hero, tables, PDF/download helpers", "Status": "MANIFESTED"},
++            {"Folder": "data/", "Purpose": "Language registry, routes, demo scenarios, CARE glossary", "Status": "MANIFESTED"},
++            {"Folder": "reports/", "Purpose": "QA reports, SHA, release notes", "Status": "MANIFESTED"},
++            {"Folder": "tests/", "Purpose": "Route/function/language/a11y checks", "Status": "NEXT"},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v18_product_architecture_center", "architecture": rows, "boundary": "Architecture is not execution."})
++    json_download_button("Download Architecture JSON", payload, "CARE_v18_0_product_architecture")
++
++def page_v18_founder_pro_center() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    render_hero("v18_founder_pro_center")
++    if v180_da():
++        rows = [
++            {"Sektion": "Åbningslinje", "Tekst": "CARE handler om mennesker før systemer.", "Brug": "Forside / pitch"},
++            {"Sektion": "Menneskelig grund", "Tekst": "Når konsekvens rammer et menneske, er det ikke abstrakt.", "Brug": "Founder story"},
++            {"Sektion": "CARE-regel", "Tekst": "No bind -> no human consequence.", "Brug": "Demo / reviewer"},
++            {"Sektion": "Sikker claim", "Tekst": "Dette er en observer-only public demo til review.", "Brug": "Partner intro"},
++            {"Sektion": "Ikke claim", "Tekst": "CARE er ikke deployed authority, juridisk beslutning eller klinisk/administrativ autoritet.", "Brug": "Boundary"},
++        ]
++    else:
++        rows = [
++            {"Section": "Opening line", "Text": "CARE is about people before systems.", "Use": "Front page / pitch"},
++            {"Section": "Human reason", "Text": "When consequence reaches a human, it is not abstract.", "Use": "Founder story"},
++            {"Section": "CARE rule", "Text": "No bind -> no human consequence.", "Use": "Demo / reviewer"},
++            {"Section": "Safe claim", "Text": "This is an observer-only public demo for review.", "Use": "Partner intro"},
++            {"Section": "Do not claim", "Text": "CARE is not deployed authority, legal decisioning or clinical/administrative authority.", "Use": "Boundary"},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v18_founder_pro_center", "rows": rows, "boundary": "Founder Pro is context only."})
++    json_download_button("Download Founder Pro JSON", payload, "CARE_v18_0_founder_pro")
++
++def page_v18_accessibility_center() -> None:
++    render_hero("v18_accessibility_center")
++    if v180_da():
++        rows = [
++            {"Tilgængelighedstjek": "Klart startpunkt", "Status": "PASS", "Hvorfor": "Ikke-tekniske brugere skal vide hvor de starter."},
++            {"Tilgængelighedstjek": "Kort offentlig navigation", "Status": "PASS", "Hvorfor": "Mindre kognitiv belastning."},
++            {"Tilgængelighedstjek": "Kontrast", "Status": "REVIEW", "Hvorfor": "Gul/blå tekst skal være læsbar på mørk baggrund."},
++            {"Tilgængelighedstjek": "Keyboard-flow", "Status": "REVIEW", "Hvorfor": "Navigation og formularer skal kunne bruges uden mus."},
++            {"Tilgængelighedstjek": "Dansk/engelsk", "Status": "REVIEW", "Hvorfor": "Sprogskift skal være konsekvent."},
++            {"Tilgængelighedstjek": "Ikke farve alene", "Status": "PASS", "Hvorfor": "PASS/HOLD/FAIL forklares også med tekst."},
++        ]
++    else:
++        rows = [
++            {"Accessibility check": "Clear start point", "Status": "PASS", "Why": "Non-technical users need to know where to begin."},
++            {"Accessibility check": "Short public navigation", "Status": "PASS", "Why": "Lower cognitive load."},
++            {"Accessibility check": "Contrast", "Status": "REVIEW", "Why": "Yellow/blue text must stay readable on dark backgrounds."},
++            {"Accessibility check": "Keyboard flow", "Status": "REVIEW", "Why": "Navigation and forms should work without mouse use."},
++            {"Accessibility check": "Danish/English", "Status": "REVIEW", "Why": "Language switching should be consistent."},
++            {"Accessibility check": "Not color-only", "Status": "PASS", "Why": "PASS/HOLD/FAIL are explained with text too."},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v18_accessibility_center", "rows": rows, "boundary": "Accessibility check is not permission."})
++    json_download_button("Download Accessibility JSON", payload, "CARE_v18_0_accessibility")
++
++def v18_search_index() -> List[Dict[str, Any]]:
++    base_index = v160_search_index() if callable(globals().get("v160_search_index")) else []
++    concepts = [
++        {"route": "concept:bind", "english_label": "Bind", "danish_label": "Bind", "function": "concept", "groups": "CARE Concepts", "hero_en": "valid bind required before consequence", "hero_dk": "gyldigt bind kræves før konsekvens"},
++        {"route": "concept:hold", "english_label": "HOLD", "danish_label": "HOLD", "function": "concept", "groups": "CARE Concepts", "hero_en": "unknown -> hold", "hero_dk": "ukendt -> hold"},
++        {"route": "concept:human_consequence", "english_label": "Human consequence", "danish_label": "Menneskelig konsekvens", "function": "concept", "groups": "CARE Concepts", "hero_en": "no bind -> no human consequence", "hero_dk": "ingen bind -> ingen menneskelig konsekvens"},
++        {"route": "scenario:hospital", "english_label": "Hospital scenario", "danish_label": "Hospital-scenario", "function": "scenario", "groups": "Scenarios", "hero_en": "patient consequence requires grounding", "hero_dk": "patientkonsekvens kræver grundlag"},
++        {"route": "scenario:municipality", "english_label": "Municipality scenario", "danish_label": "Kommune-scenario", "function": "scenario", "groups": "Scenarios", "hero_en": "citizen consequence requires grounding", "hero_dk": "borgerkonsekvens kræver grundlag"},
++    ]
++    return base_index + concepts
++
++def page_v18_search_v2_center() -> None:
++    render_hero("v18_search_v2_center")
++    q = st.text_input("Search CARE v2" if not v180_da() else "Søg i CARE v2", value="", placeholder="bind, HOLD, hospital, kommune, founder, accessibility...")
++    index = v18_search_index()
++    ql = q.strip().lower()
++    results = []
++    if ql:
++        for item in index:
++            hay = " ".join(str(v) for v in item.values()).lower()
++            if ql in hay:
++                results.append(item)
++    else:
++        results = index[:30]
++    rows = []
++    for item in results[:120]:
++        if v180_da():
++            rows.append({"Resultat": item.get("danish_label"), "Type": item.get("function"), "Route": item.get("route"), "Grupper": item.get("groups"), "Grænse": "Søgning ≠ Bind"})
++        else:
++            rows.append({"Result": item.get("english_label"), "Type": item.get("function"), "Route": item.get("route"), "Groups": item.get("groups"), "Boundary": "Search ≠ Bind"})
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v18_search_v2_center", "query": q, "count": len(results), "results": results[:120], "boundary": "Search result is not authority."})
++    json_download_button("Download Search v2 JSON", payload, "CARE_v18_0_search_v2")
++
++def page_v18_reviewer_pro_center() -> None:
++    render_hero("v18_reviewer_pro_center")
++    if v180_da():
++        rows = [
++            {"Challenge": "Gør founder-historie til autoritet", "Forventet CARE": "HOLD", "Hvorfor": "Story ≠ authority"},
++            {"Challenge": "Gør pæn dashboard-status til permission", "Forventet CARE": "HOLD", "Hvorfor": "Dashboard ≠ bind"},
++            {"Challenge": "Gør usefulness til admissibility", "Forventet CARE": "HOLD", "Hvorfor": "Usefulness ≠ permission"},
++            {"Challenge": "Gør DOI/GitHub til authority", "Forventet CARE": "HOLD", "Hvorfor": "Citation/repository ≠ bind"},
++            {"Challenge": "Gør demo PASS til real-world action", "Forventet CARE": "FAIL/HOLD", "Hvorfor": "Demo ≠ execution"},
++        ]
++    else:
++        rows = [
++            {"Challenge": "Turn founder story into authority", "Expected CARE": "HOLD", "Why": "Story ≠ authority"},
++            {"Challenge": "Turn dashboard status into permission", "Expected CARE": "HOLD", "Why": "Dashboard ≠ bind"},
++            {"Challenge": "Turn usefulness into admissibility", "Expected CARE": "HOLD", "Why": "Usefulness ≠ permission"},
++            {"Challenge": "Turn DOI/GitHub into authority", "Expected CARE": "HOLD", "Why": "Citation/repository ≠ bind"},
++            {"Challenge": "Turn demo PASS into real-world action", "Expected CARE": "FAIL/HOLD", "Why": "Demo ≠ execution"},
++        ]
++    dark_table(rows)
++
++def page_v18_public_demo_mode() -> None:
++    render_hero("v18_public_demo_mode")
++    if v180_da():
++        rows = [
++            {"Trin": "1", "Vis": "CARE produktforside", "Sig": "CARE handler om mennesker før systemer."},
++            {"Trin": "2", "Vis": "Founder Pro", "Sig": "Historien forklarer hvorfor, ikke hvad der er autoritet."},
++            {"Trin": "3", "Vis": "Scenario Builder", "Sig": "Når grundlag mangler, bliver konsekvens HOLD."},
++            {"Trin": "4", "Vis": "Hospital/Kommune demo", "Sig": "Patient/borger-konsekvens kræver aktuel grounding."},
++            {"Trin": "5", "Vis": "Download Center", "Sig": "Dette er review-evidens, ikke eksekvering."},
++        ]
++    else:
++        rows = [
++            {"Step": "1", "Show": "CARE Product Home", "Say": "CARE is about people before systems."},
++            {"Step": "2", "Show": "Founder Pro", "Say": "The story explains why, not what is authority."},
++            {"Step": "3", "Show": "Scenario Builder", "Say": "When grounding is missing, consequence becomes HOLD."},
++            {"Step": "4", "Show": "Hospital/Municipality demo", "Say": "Patient/citizen consequence requires current grounding."},
++            {"Step": "5", "Show": "Download Center", "Say": "This is review evidence, not execution."},
++        ]
++    dark_table(rows)
++
++def page_command_center() -> None:
++    page_v18_product_home()
++
++
++
+ ROUTES = {
++    "v18_product_home": page_v18_product_home,
++    "v18_product_architecture_center": page_v18_product_architecture_center,
++    "v18_founder_pro_center": page_v18_founder_pro_center,
++    "v18_accessibility_center": page_v18_accessibility_center,
++    "v18_search_v2_center": page_v18_search_v2_center,
++    "v18_reviewer_pro_center": page_v18_reviewer_pro_center,
++    "v18_public_demo_mode": page_v18_public_demo_mode,
+     "v17_founder_mission_control": page_v17_founder_mission_control,
+     "v17_founder_story_plus": page_v17_founder_story_plus,
+     "v17_human_timeline": page_v17_human_timeline,
