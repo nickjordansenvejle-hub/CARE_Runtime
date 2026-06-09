@@ -1,0 +1,23 @@
+{
+  "release": "CARE Runtime v22.0",
+  "quality_pages": [
+    "v22_quality_trust_home",
+    "v22_live_app_health_check",
+    "v22_broken_page_detector",
+    "v22_translation_scanner",
+    "v22_public_claim_safety_audit",
+    "v22_download_report_audit",
+    "v22_mobile_readability_score",
+    "v22_reviewer_red_team_scoreboard",
+    "v22_streamlit_deployment_checklist",
+    "v22_release_notes_generator",
+    "v22_what_care_is_is_not"
+  ],
+  "public_status": {
+    "github": "CONNECTED",
+    "streamlit": "LIVE",
+    "branch": "main",
+    "authority": "NO"
+  },
+  "boundary": "Quality and trust signals do not create authority, bind, permission, deployment or execution."
+}

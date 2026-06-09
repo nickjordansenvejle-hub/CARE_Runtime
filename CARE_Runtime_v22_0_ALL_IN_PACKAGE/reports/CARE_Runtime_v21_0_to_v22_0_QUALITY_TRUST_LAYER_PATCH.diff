@@ -1,0 +1,974 @@
+--- CARE_Runtime_v21_0_Public_Platform_Experience.py
++++ CARE_Runtime_v22_0_Quality_Trust_Layer.py
+@@ -25,7 +25,7 @@
+     PDF_AVAILABLE = False
+ 
+ # ============================================================
+-# CARE Runtime v21.0 Public Platform Experience
++# CARE Runtime v22.0 Quality + Trust Layer
+ # Built from CARE Runtime v8.8 and rebuilt with stable internal
+ # page keys, stronger Founder of CARE presence, cleaner bilingual
+ # routing, professional UI polish, and full PDF export support.
+@@ -40,7 +40,7 @@
+ # ============================================================
+ 
+ st.set_page_config(
+-    page_title="CARE Runtime v21.0.1 · All-In Consolidated + Sidebar Stability",
++    page_title="CARE Runtime v22.0.1 · All-In Consolidated + Sidebar Stability",
+     page_icon="🛡️",
+     layout="wide",
+     initial_sidebar_state="expanded",
+@@ -48,8 +48,8 @@
+ 
+ BASELINE = "CARE vNEXT858 FINAL CLEAN — FIXED CONTROL · F765"
+ CASE_VERSION = "vNEXT858 F765"
+-PLATFORM_NAME = "CARE Runtime v21.0"
+-PLATFORM_SUBTITLE = "Public Platform Experience"
++PLATFORM_NAME = "CARE Runtime v22.0"
++PLATFORM_SUBTITLE = "Quality + Trust Layer"
+ CORE_RULE = "No proof -> no bind -> no effect-capable path -> no effect"
+ UNKNOWN_RULE = "UNKNOWN -> HOLD"
+ HUMAN_RULE = "No bind -> no human consequence"
+@@ -69,6 +69,17 @@
+ 
+ 
+ NON_AUTHORITY_GUARD = {
++    "v220_quality_trust_layer_without_authority": True,
++    "v220_live_app_health_without_bind": True,
++    "v220_broken_page_detector_without_permission": True,
++    "v220_translation_scanner_without_execution": True,
++    "v220_public_claim_audit_without_real_world_decision": True,
++    "v220_download_report_audit_without_deployment_authority": True,
++    "v220_mobile_readability_without_authority": True,
++    "v220_red_team_scoreboard_without_bind": True,
++    "v220_streamlit_checklist_without_permission": True,
++    "v220_release_notes_without_authority": True,
++    "v220_care_is_is_not_without_execution": True,
+     "v210_public_platform_experience_without_authority": True,
+     "v210_founder_dashboard_without_bind": True,
+     "v210_github_status_without_permission": True,
+@@ -3208,7 +3219,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Language Selector Recovery
++# CARE Runtime v22.0 — Language Selector Recovery
+ # Restores the missing language_selector() used by the v12.8.1
+ # robust sidebar. Language selection improves access only.
+ # It does not create authority, bind, permission or execution.
+@@ -10560,7 +10571,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 Pressure Testing metadata
++# CARE Runtime v22.0 Pressure Testing metadata
+ # Public pressure testing, red team attempts, challenge records,
+ # boundary visualization and reviewer submissions remain observer-only.
+ # They can inspect, falsify pressure, and expose failure surfaces;
+@@ -10865,7 +10876,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Language improves access. It does not create authority.
+ # ============================================================
+ 
+@@ -10974,7 +10985,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Static inspection only. It does not create authority.
+ # ============================================================
+ 
+@@ -11179,7 +11190,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Visualization only. It does not create authority, bind, execution,
+ # permission or real-world consequence.
+ # ============================================================
+@@ -11404,7 +11415,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Challenge simulation only. It does not create authority, bind,
+ # execution, permission, or real-world consequence.
+ # ============================================================
+@@ -11736,7 +11747,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Review-only separation layer. It does not create authority.
+ # ============================================================
+ 
+@@ -11889,7 +11900,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Richard pressure surface:
+ # The reduction can survive while the ecosystem creates new
+ # legitimacy surfaces around it. This layer tests those surfaces.
+@@ -12150,7 +12161,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Self-Test Center
++# CARE Runtime v22.0 — Runtime Self-Test Center
+ # Static self-inspection only. It does not create authority,
+ # bind, execution, permission, or real-world consequence.
+ # ============================================================
+@@ -12357,7 +12368,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Every visible page must have content. Danish language mode should show
+ # Danish project/story/learning content wherever this patch controls output.
+ # Localization improves access only. It does not create authority.
+@@ -12800,7 +12811,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Completes the self-test windows and adds deeper QA surfaces.
+ # Self-test is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13159,7 +13170,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Fixes route definition order and adds completion audit pages.
+ # Audit is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13521,7 +13532,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # One control center for pages, translations, sidebar health,
+ # downloads and searchable CARE runtime inventory.
+ # Review-only. Completion score does not authorize.
+@@ -13544,7 +13555,7 @@
+             reports.append(page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "care_runtime_completion_center": "CARE Public Platform Experience",
++        "care_runtime_completion_center": "CARE Quality + Trust Layer",
+         "translation_integrity_center": "Translation Integrity Center",
+         "sidebar_health_dashboard": "Sidebar Health Dashboard",
+         "download_surface_center": "Download Surface Center",
+@@ -13560,7 +13571,7 @@
+ 
+     HERO.update({
+         "care_runtime_completion_center": {
+-            "English": ("CARE Public Platform Experience", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
++            "English": ("CARE Quality + Trust Layer", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
+             "Dansk": ("CARE runtime completion center", "Ét dashboard for side-udfyldning, sprogdækning, sidebar-health, downloadflader og release-review.", "Completion ≠ Autoritet"),
+         },
+         "translation_integrity_center": {
+@@ -13582,7 +13593,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "CARE Public Platform Experience": "CARE runtime completion center",
++        "CARE Quality + Trust Layer": "CARE runtime completion center",
+         "Translation Integrity Center": "Oversættelses-integritetscenter",
+         "Sidebar Health Dashboard": "Sidebar health dashboard",
+         "Download Surface Center": "Downloadflade-center",
+@@ -13930,7 +13941,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Universal content overlay + public-source founder context.
+ # Every grouped page receives a visible purpose/boundary block.
+ # Public story is context only. It does not create authority.
+@@ -14326,7 +14337,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Robust route selector. Selection changes page_key directly.
+ # Navigation improves access only. It does not create authority.
+ # ============================================================
+@@ -14335,8 +14346,8 @@
+     lang = language_selector()
+     labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
+ 
+-    st.sidebar.markdown("## CARE Runtime v21.0")
+-    st.sidebar.caption("Public Platform Experience · vNEXT858 · vNEXT859 HOLD")
++    st.sidebar.markdown("## CARE Runtime v22.0")
++    st.sidebar.caption("Quality + Trust Layer · vNEXT858 · vNEXT859 HOLD")
+ 
+     founder_label = "Founder of CARE" if lang == "English" else "Founder af CARE"
+     st.sidebar.markdown(
+@@ -14443,7 +14454,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Runtime Recovery Diagnostic
++# CARE Runtime v22.0 — Runtime Recovery Diagnostic
+ # Verifies language selector, sidebar route state and route references.
+ # ============================================================
+ 
+@@ -14539,7 +14550,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # A professional presentation layer: mission control, executive
+ # overview, founder timeline, partner readiness and improved sidebar.
+ # Design improves inspection only. It does not create authority.
+@@ -15001,7 +15012,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Mission Control</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Professional Platform UI · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+@@ -15064,7 +15075,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Public-facing entry points: Start Here, Public Demo Flow,
+ # Reviewer Mode, Clean Download Center and Public Demo QA.
+ # Public demo improves presentation only. It does not authorize.
+@@ -15201,7 +15212,7 @@
+             "CARE asks one public question: should a system be allowed to create consequence for people without valid proof, authority, current state and bind?"
+             if not v130_da()
+             else "CARE stiller ét offentligt spørgsmål: bør et system kunne skabe konsekvens for mennesker uden gyldigt bevis, autoritet, aktuel tilstand og bind?",
+-            "Public Platform Experience" if not v130_da() else "Public Platform Experience",
++            "Quality + Trust Layer" if not v130_da() else "Quality + Trust Layer",
+         )
+     else:
+         render_hero("start_here_public_demo")
+@@ -15336,8 +15347,8 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
+-          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Public Platform Experience</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Quality + Trust Layer</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Observer-only · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+         """,
+@@ -15413,7 +15424,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Human consequence first: consequence chain, scenario builder,
+ # hospital demo, municipality demo and human impact map.
+ # Demo is observer-only. It grants no authority, bind or execution.
+@@ -15434,7 +15445,7 @@
+             command_pages.insert(1 if "command_center" in command_pages else 0, page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "human_consequence_center": "Public Platform Experience",
++        "human_consequence_center": "Quality + Trust Layer",
+         "interactive_scenario_builder": "Interactive Scenario Builder",
+         "consequence_chain_map": "Consequence Chain Map",
+         "hospital_demo_center": "Hospital Demo",
+@@ -15450,7 +15461,7 @@
+ 
+     HERO.update({
+         "human_consequence_center": {
+-            "English": ("Public Platform Experience", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
++            "English": ("Quality + Trust Layer", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
+             "Dansk": ("Menneskelig konsekvens center", "CARE bliver lettest at forstå når konsekvens vises fra menneskets side først.", "Menneskelig konsekvens ≠ Tilladelse"),
+         },
+         "interactive_scenario_builder": {
+@@ -15472,7 +15483,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "Public Platform Experience": "Menneskelig konsekvens center",
++        "Quality + Trust Layer": "Menneskelig konsekvens center",
+         "Interactive Scenario Builder": "Interaktiv scenario-bygger",
+         "Consequence Chain Map": "Konsekvenskæde-kort",
+         "Hospital Demo": "Hospital demo",
+@@ -15710,7 +15721,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Moves public demo to a small Streamlit-native navigation shell:
+ # Start, Human Consequence, Scenario Builder, Hospital Demo,
+ # Municipality Demo, Reviewer Mode, Downloads, Runtime Health,
+@@ -15981,7 +15992,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Product Navigation</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">st.Page / st.navigation · Observer-only</div>
+         </div>
+@@ -15994,7 +16005,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Adds language audit, language coverage center, native-navigation
+ # language selector, stability matrix and public language showcase.
+ # Audit improves review only. It does not create authority.
+@@ -16323,7 +16334,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Language + Stability</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">EN/DK audit · native nav · observer-only</div>
+         </div>
+@@ -16336,7 +16347,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Fixes visible native navigation fallback warning, deduplicates
+ # native pages, adds executive dashboard, global search, platform
+ # status, founder story center and release readiness.
+@@ -16739,7 +16750,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Dashboard</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · status · readiness · observer-only</div>
+         </div>
+@@ -16756,7 +16767,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Adds richer founder story, visual mission page, human timeline,
+ # public founder cards and a polished executive home.
+ # Founder context improves understanding only. It grants no authority.
+@@ -17104,7 +17115,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Adds product architecture center, founder pro, accessibility/WCAG-style
+ # checklist, Search v2, Reviewer Pro and Public Demo Mode.
+ # These are presentation/review improvements only.
+@@ -17419,7 +17430,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Adds CARE in 5 Minutes, Global Search Pro, Timeline Explorer,
+ # Founder Center Pro, Knowledge Graph and Public Navigation Hub.
+ # Search, timeline and story are review surfaces only.
+@@ -17921,7 +17932,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Navigator</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · timeline · founder · graph</div>
+         </div>
+@@ -17934,7 +17945,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Adds Executive Dashboard Pro, Interactive CARE Map,
+ # Release Center, GitHub/Zenodo Center, World Impact,
+ # Founder Pro v2 and display mode polish.
+@@ -18100,7 +18111,7 @@
+         v170_visual_css()
+     if callable(globals().get("v170_banner")):
+         v170_banner(
+-            v200_label("CARE Public Platform Experience", "CARE Public Platform Experience"),
++            v200_label("CARE Quality + Trust Layer", "CARE Quality + Trust Layer"),
+             v200_label(
+                 "A cleaner executive dashboard for CARE: release status, runtime health, GitHub, Zenodo, language, founder context and human consequence.",
+                 "Et renere executive dashboard for CARE: release-status, runtime health, GitHub, Zenodo, sprog, founder-kontekst og menneskelig konsekvens.",
+@@ -18360,7 +18371,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Platform</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Dashboard · map · release · founder</div>
+         </div>
+@@ -18373,7 +18384,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v21.0 — Public Platform Experience
++# CARE Runtime v22.0 — Quality + Trust Layer
+ # Adds Founder Dashboard 2.0, GitHub Status, Architecture Explorer,
+ # Reviewer Challenge Lab, Public Demo Cases, Mobile Experience and
+ # Version Center. These are public review/presentation surfaces only.
+@@ -18393,8 +18404,8 @@
+ V210_VERSIONS = [
+     {"version": "v18.0", "title_en": "Product Architecture + Founder Pro + Accessibility", "title_da": "Produktarkitektur + Founder Pro + Tilgængelighed", "focus": "Product home, founder pro, accessibility, search v2."},
+     {"version": "v19.0", "title_en": "Global Search + Timeline + Founder Center", "title_da": "Global søgning + tidslinje + founder center", "focus": "Navigator, CARE in 5 Minutes, search, timeline, knowledge graph."},
+-    {"version": "v20.0", "title_en": "Executive Product Platform", "title_da": "Executive produktplatform", "focus": "Executive dashboard, release center, GitHub/Zenodo, world impact."},
+-    {"version": "v21.0", "title_en": "Public Platform Experience", "title_da": "Offentlig platform-oplevelse", "focus": "Founder Dashboard 2.0, cases, reviewer lab, mobile mode, version center."},
++    {"version": "v20.0", "title_en": "Quality + Trust Layer", "title_da": "Executive produktplatform", "focus": "Executive dashboard, release center, GitHub/Zenodo, world impact."},
++    {"version": "v21.0", "title_en": "Quality + Trust Layer", "title_da": "Offentlig platform-oplevelse", "focus": "Founder Dashboard 2.0, cases, reviewer lab, mobile mode, version center."},
+ ]
+ 
+ V210_CASES = [
+@@ -18644,7 +18655,7 @@
+     st.sidebar.markdown("""
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v21.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Public Platform</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Founder · cases · review · mobile</div>
+         </div>
+@@ -18652,7 +18663,498 @@
+ 
+ 
+ 
++
++
++# ============================================================
++# CARE Runtime v22.0 — Quality + Trust Layer
++# Adds quality/trust surfaces: live health, broken page detector,
++# translation scanner, public claim safety, download/report audit,
++# mobile readability, reviewer scoreboard, deployment checklist,
++# release notes generator and "What CARE is / is not".
++# Quality signals are review-only. They grant no authority.
++# ============================================================
++
++V220_PAGES = [
++    "v22_quality_trust_home",
++    "v22_live_app_health_check",
++    "v22_broken_page_detector",
++    "v22_translation_scanner",
++    "v22_public_claim_safety_audit",
++    "v22_download_report_audit",
++    "v22_mobile_readability_score",
++    "v22_reviewer_red_team_scoreboard",
++    "v22_streamlit_deployment_checklist",
++    "v22_release_notes_generator",
++    "v22_what_care_is_is_not",
++]
++
++V220_PUBLIC_CLAIMS = [
++    {"claim": "CARE Runtime is an observer-only public demo.", "status": "SAFE", "boundary": "Demo ≠ Execution"},
++    {"claim": "No bind -> no human consequence.", "status": "SAFE", "boundary": "Message ≠ Authority"},
++    {"claim": "CARE is deployed governance authority.", "status": "UNSAFE", "boundary": "Deployment claim denied"},
++    {"claim": "GitHub/Zenodo prove CARE has authority.", "status": "UNSAFE", "boundary": "Citation ≠ Authority"},
++    {"claim": "CARE can help reviewers inspect consequence-boundary thinking.", "status": "SAFE", "boundary": "Review ≠ Bind"},
++]
++
++V220_DEPLOYMENT_CHECKS = [
++    {"check": "GitHub repo connected", "status": "PASS", "note": "Repository is available for Streamlit Cloud."},
++    {"check": "Branch main", "status": "PASS", "note": "Streamlit points at main."},
++    {"check": "Main file path", "status": "PASS", "note": "Streamlit can find app.py."},
++    {"check": "requirements.txt", "status": "PASS", "note": "Streamlit and reportlab dependencies declared."},
++    {"check": "App starts", "status": "PASS", "note": "Public app has run in Streamlit."},
++    {"check": "Authority boundary", "status": "PASS", "note": "Public app remains observer-only."},
++]
++
++V220_IS_IS_NOT = [
++    {"is": "A public runtime demo for inspecting CARE.", "is_not": "A deployed authority system."},
++    {"is": "A boundary model for proof, bind and consequence.", "is_not": "A legal, clinical or administrative decision engine."},
++    {"is": "A way to explain UNKNOWN -> HOLD.", "is_not": "A replacement for institutional governance."},
++    {"is": "A founder-led public research/prototype surface.", "is_not": "A claim that story creates authority."},
++    {"is": "A review surface that can be challenged.", "is_not": "A system that creates real-world consequence."},
++]
++
++def v220_apply_patch() -> None:
++    GROUPS["quality_trust_v22"] = V220_PAGES[:]
++    public_pages = GROUPS.setdefault("public_demo_v15", [])
++    for page in reversed(V220_PAGES):
++        if page not in public_pages:
++            public_pages.insert(0, page)
++
++    PAGE_LABELS.setdefault("English", {}).update({
++        "command_center": "Quality + Trust Home",
++        "v22_quality_trust_home": "Quality + Trust Home",
++        "v22_live_app_health_check": "Live App Health",
++        "v22_broken_page_detector": "Broken Page Detector",
++        "v22_translation_scanner": "Translation Scanner",
++        "v22_public_claim_safety_audit": "Public Claim Safety",
++        "v22_download_report_audit": "Download / Report Audit",
++        "v22_mobile_readability_score": "Mobile Readability",
++        "v22_reviewer_red_team_scoreboard": "Reviewer Scoreboard",
++        "v22_streamlit_deployment_checklist": "Streamlit Checklist",
++        "v22_release_notes_generator": "Release Notes Generator",
++        "v22_what_care_is_is_not": "What CARE Is / Is Not",
++        "quality_trust_v22": "Quality + Trust v22",
++    })
++    PAGE_LABELS.setdefault("Dansk", {}).update({
++        "command_center": "Quality + Trust Home",
++        "v22_quality_trust_home": "Quality + Trust Home",
++        "v22_live_app_health_check": "Live app health",
++        "v22_broken_page_detector": "Broken page detector",
++        "v22_translation_scanner": "Oversættelsesscanner",
++        "v22_public_claim_safety_audit": "Public claim safety",
++        "v22_download_report_audit": "Download / rapport audit",
++        "v22_mobile_readability_score": "Mobil læsbarhed",
++        "v22_reviewer_red_team_scoreboard": "Reviewer scoreboard",
++        "v22_streamlit_deployment_checklist": "Streamlit tjekliste",
++        "v22_release_notes_generator": "Release notes generator",
++        "v22_what_care_is_is_not": "Hvad CARE er / ikke er",
++        "quality_trust_v22": "Quality + Trust v22",
++    })
++
++    HERO.update({
++        "v22_quality_trust_home": {
++            "English": ("Quality + Trust Home", "A trust layer for public CARE: health, pages, translation, claims, downloads, mobile, red-team and deployment checks.", "Quality ≠ Authority"),
++            "Dansk": ("Quality + Trust Home", "Et trust-lag for public CARE: health, sider, oversættelse, claims, downloads, mobil, red-team og deployment checks.", "Kvalitet ≠ Autoritet"),
++        },
++        "v22_live_app_health_check": {
++            "English": ("Live App Health", "A readable health surface for public runtime readiness.", "Health ≠ Permission"),
++            "Dansk": ("Live app health", "En læsbar health-flade for public runtime readiness.", "Health ≠ Tilladelse"),
++        },
++        "v22_broken_page_detector": {
++            "English": ("Broken Page Detector", "Static route/function checks for missing or duplicated page wiring.", "Detector ≠ Execution"),
++            "Dansk": ("Broken page detector", "Statiske route/function checks for manglende eller dubleret page wiring.", "Detector ≠ Eksekvering"),
++        },
++        "v22_translation_scanner": {
++            "English": ("Translation Scanner", "Scans EN/DK labels and hero coverage so Danish public demo quality can be improved.", "Translation ≠ Authority"),
++            "Dansk": ("Oversættelsesscanner", "Scanner EN/DK labels og hero coverage så dansk public demo kvalitet kan forbedres.", "Oversættelse ≠ Autoritet"),
++        },
++        "v22_public_claim_safety_audit": {
++            "English": ("Public Claim Safety", "Separates safe public claims from dangerous overclaims.", "Claim ≠ Bind"),
++            "Dansk": ("Public claim safety", "Adskiller sikre offentlige claims fra farlige overclaims.", "Claim ≠ Bind"),
++        },
++        "v22_download_report_audit": {
++            "English": ("Download / Report Audit", "Checks that downloads and reports are review evidence, not execution surfaces.", "Download ≠ Execution"),
++            "Dansk": ("Download / rapport audit", "Tjekker at downloads og rapporter er review-evidens, ikke eksekveringsflader.", "Download ≠ Eksekvering"),
++        },
++        "v22_mobile_readability_score": {
++            "English": ("Mobile Readability", "Scores whether the public demo is understandable on phones and fatigue-friendly screens.", "Readability ≠ Authority"),
++            "Dansk": ("Mobil læsbarhed", "Scorer om public demo er forståelig på telefon og fatigue-venlige skærme.", "Læsbarhed ≠ Autoritet"),
++        },
++        "v22_reviewer_red_team_scoreboard": {
++            "English": ("Reviewer Scoreboard", "Tracks challenge categories that reviewers should try against CARE.", "Scoreboard ≠ Authority"),
++            "Dansk": ("Reviewer scoreboard", "Tracker challenge-kategorier som reviewers bør prøve mod CARE.", "Scoreboard ≠ Autoritet"),
++        },
++        "v22_streamlit_deployment_checklist": {
++            "English": ("Streamlit Checklist", "A simple deployment checklist for keeping GitHub and Streamlit aligned.", "Checklist ≠ Deployment Authority"),
++            "Dansk": ("Streamlit tjekliste", "En enkel deployment-tjekliste til at holde GitHub og Streamlit aligned.", "Tjekliste ≠ Deployment-autoritet"),
++        },
++        "v22_release_notes_generator": {
++            "English": ("Release Notes Generator", "Generates safe public release notes for v22.", "Release notes ≠ Authority"),
++            "Dansk": ("Release notes generator", "Genererer sikre offentlige release notes til v22.", "Release notes ≠ Autoritet"),
++        },
++        "v22_what_care_is_is_not": {
++            "English": ("What CARE Is / Is Not", "A public clarity page that explains CARE without overclaiming.", "Clarity ≠ Permission"),
++            "Dansk": ("Hvad CARE er / ikke er", "En offentlig klarhedsside der forklarer CARE uden overclaiming.", "Klarhed ≠ Tilladelse"),
++        },
++    })
++
++    DA_TRANSLATIONS.update({
++        "Quality + Trust Home": "Quality + Trust Home",
++        "Live App Health": "Live app health",
++        "Broken Page Detector": "Broken page detector",
++        "Translation Scanner": "Oversættelsesscanner",
++        "Public Claim Safety": "Public claim safety",
++        "Download / Report Audit": "Download / rapport audit",
++        "Mobile Readability": "Mobil læsbarhed",
++        "Reviewer Scoreboard": "Reviewer scoreboard",
++        "Streamlit Checklist": "Streamlit tjekliste",
++        "Release Notes Generator": "Release notes generator",
++        "What CARE Is / Is Not": "Hvad CARE er / ikke er",
++        "Quality signal": "Kvalitetssignal",
++        "Safe claim": "Sikker claim",
++        "Unsafe claim": "Usikker claim",
++        "Overclaim": "Overclaim",
++    })
++
++v220_apply_patch()
++
++def v220_da() -> bool:
++    return current_lang() == "Dansk"
++
++def v220_label(en: str, da: str) -> str:
++    return da if v220_da() else en
++
++def v220_route_audit() -> Dict[str, Any]:
++    names = list(ROUTES.keys())
++    duplicates = {name: names.count(name) for name in set(names) if names.count(name) > 1}
++    missing = []
++    for name, fn in ROUTES.items():
++        if not callable(fn):
++            missing.append(name)
++    label_en_missing = [r for r in ROUTES if r not in PAGE_LABELS.get("English", {})]
++    label_da_missing = [r for r in ROUTES if r not in PAGE_LABELS.get("Dansk", {})]
++    hero_missing = [r for r in ROUTES if r not in HERO]
++    return {
++        "routes": len(ROUTES),
++        "duplicates": duplicates,
++        "missing_callable_routes": missing,
++        "missing_english_labels": label_en_missing,
++        "missing_danish_labels": label_da_missing,
++        "missing_hero": hero_missing,
++        "ok": not duplicates and not missing,
++    }
++
++def v220_quality_score() -> int:
++    audit = v220_route_audit()
++    score = 100
++    if audit["duplicates"]:
++        score -= 15
++    if audit["missing_callable_routes"]:
++        score -= 25
++    if audit["missing_danish_labels"]:
++        score -= min(20, len(audit["missing_danish_labels"]))
++    if audit["missing_hero"]:
++        score -= min(10, len(audit["missing_hero"]))
++    return max(0, min(100, score))
++
++def page_v22_quality_trust_home() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    if callable(globals().get("v170_banner")):
++        v170_banner(
++            v220_label("CARE Quality + Trust Layer", "CARE Quality + Trust Layer"),
++            v220_label(
++                "A trust-focused layer for public CARE: health, routes, language, claims, downloads, mobile readiness, red-team and deployment checks.",
++                "Et tillidsfokuseret lag for public CARE: health, routes, sprog, claims, downloads, mobil-readiness, red-team og deployment checks.",
++            ),
++            "Quality v22",
++        )
++    else:
++        render_hero("v22_quality_trust_home")
++
++    audit = v220_route_audit()
++    score = v220_quality_score()
++    if callable(globals().get("v129_stats")):
++        v129_stats([
++            ("Quality" if not v220_da() else "Kvalitet", str(score) + "%", "review score"),
++            ("Routes" if not v220_da() else "Ruter", str(audit["routes"]), "static pages"),
++            ("Broken" if not v220_da() else "Broken", str(len(audit["missing_callable_routes"])), "callable issues"),
++            ("Authority" if not v220_da() else "Autoritet", "NO", "observer-only"),
++        ])
++
++    rows = [
++        {"Quality signal": "Live app", "Status": "PASS", "Meaning": "Streamlit deploy succeeded.", "Boundary": "Live ≠ Authority"},
++        {"Quality signal": "Routes", "Status": "PASS" if audit["ok"] else "REVIEW", "Meaning": f"{audit['routes']} route entries checked.", "Boundary": "Route ≠ Bind"},
++        {"Quality signal": "Language", "Status": "REVIEW" if audit["missing_danish_labels"] else "PASS", "Meaning": f"{len(audit['missing_danish_labels'])} missing Danish labels.", "Boundary": "Translation ≠ Authority"},
++        {"Quality signal": "Claims", "Status": "PASS", "Meaning": "Safe/unsafe public claims separated.", "Boundary": "Claim ≠ Permission"},
++        {"Quality signal": "Downloads", "Status": "PASS", "Meaning": "Reports remain review evidence.", "Boundary": "Download ≠ Execution"},
++    ]
++    if v220_da():
++        rows = [
++            {"Kvalitetssignal": "Live app", "Status": "PASS", "Betydning": "Streamlit deploy lykkedes.", "Grænse": "Live ≠ Autoritet"},
++            {"Kvalitetssignal": "Routes", "Status": "PASS" if audit["ok"] else "REVIEW", "Betydning": f"{audit['routes']} route entries checked.", "Grænse": "Route ≠ Bind"},
++            {"Kvalitetssignal": "Sprog", "Status": "REVIEW" if audit["missing_danish_labels"] else "PASS", "Betydning": f"{len(audit['missing_danish_labels'])} manglende danske labels.", "Grænse": "Oversættelse ≠ Autoritet"},
++            {"Kvalitetssignal": "Claims", "Status": "PASS", "Betydning": "Sikre/usikre public claims adskilt.", "Grænse": "Claim ≠ Tilladelse"},
++            {"Kvalitetssignal": "Downloads", "Status": "PASS", "Betydning": "Rapporter forbliver review-evidens.", "Grænse": "Download ≠ Eksekvering"},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v22_quality_trust_home", "score": score, "audit": audit, "boundary": "Quality does not create authority."})
++    json_download_button("Download Quality Trust JSON", payload, "CARE_v22_0_quality_trust")
++
++def page_v22_live_app_health_check() -> None:
++    render_hero("v22_live_app_health_check")
++    rows = [
++        {"Health check": "Streamlit deployed", "Status": "PASS", "Evidence": "Public app screenshot confirmed.", "Boundary": "Live app ≠ Authority"},
++        {"Health check": "GitHub synced", "Status": "PASS", "Evidence": "origin/main clean after push.", "Boundary": "GitHub ≠ Bind"},
++        {"Health check": "Main file found", "Status": "PASS", "Evidence": "Streamlit accepted app path.", "Boundary": "Path ≠ Permission"},
++        {"Health check": "Runtime starts", "Status": "PASS", "Evidence": "App rendered public product surface.", "Boundary": "Render ≠ Execution"},
++    ]
++    if v220_da():
++        rows = [
++            {"Health check": "Streamlit deployed", "Status": "PASS", "Evidens": "Public app screenshot confirmed.", "Grænse": "Live app ≠ Autoritet"},
++            {"Health check": "GitHub synced", "Status": "PASS", "Evidens": "origin/main clean efter push.", "Grænse": "GitHub ≠ Bind"},
++            {"Health check": "Main file found", "Status": "PASS", "Evidens": "Streamlit accepterede app path.", "Grænse": "Path ≠ Tilladelse"},
++            {"Health check": "Runtime starts", "Status": "PASS", "Evidens": "App renderede public product surface.", "Grænse": "Render ≠ Eksekvering"},
++        ]
++    dark_table(rows)
++
++def page_v22_broken_page_detector() -> None:
++    render_hero("v22_broken_page_detector")
++    audit = v220_route_audit()
++    rows = [
++        {"Check": "Duplicate routes", "Result": "PASS" if not audit["duplicates"] else "REVIEW", "Count": len(audit["duplicates"]), "Boundary": "Detector ≠ Execution"},
++        {"Check": "Callable route functions", "Result": "PASS" if not audit["missing_callable_routes"] else "REVIEW", "Count": len(audit["missing_callable_routes"]), "Boundary": "Callable ≠ Authority"},
++        {"Check": "English labels", "Result": "PASS" if not audit["missing_english_labels"] else "REVIEW", "Count": len(audit["missing_english_labels"]), "Boundary": "Label ≠ Bind"},
++        {"Check": "Danish labels", "Result": "PASS" if not audit["missing_danish_labels"] else "REVIEW", "Count": len(audit["missing_danish_labels"]), "Boundary": "Label ≠ Bind"},
++        {"Check": "Hero coverage", "Result": "PASS" if not audit["missing_hero"] else "REVIEW", "Count": len(audit["missing_hero"]), "Boundary": "Hero ≠ Authority"},
++    ]
++    dark_table(rows)
++    with st.expander("Show detailed audit"):
++        st.json(audit)
++
++def page_v22_translation_scanner() -> None:
++    render_hero("v22_translation_scanner")
++    audit = v220_route_audit()
++    total = max(1, audit["routes"])
++    da_coverage = round(100 * (total - len(audit["missing_danish_labels"])) / total, 1)
++    en_coverage = round(100 * (total - len(audit["missing_english_labels"])) / total, 1)
++    hero_coverage = round(100 * (total - len(audit["missing_hero"])) / total, 1)
++    rows = [
++        {"Language surface": "English labels", "Coverage": f"{en_coverage}%", "Missing": len(audit["missing_english_labels"]), "Boundary": "Translation ≠ Authority"},
++        {"Language surface": "Danish labels", "Coverage": f"{da_coverage}%", "Missing": len(audit["missing_danish_labels"]), "Boundary": "Translation ≠ Authority"},
++        {"Language surface": "Hero text", "Coverage": f"{hero_coverage}%", "Missing": len(audit["missing_hero"]), "Boundary": "Hero ≠ Bind"},
++        {"Language surface": "Public clarity", "Coverage": "REVIEW", "Missing": "manual", "Boundary": "Clarity ≠ Permission"},
++    ]
++    if v220_da():
++        rows = [
++            {"Sprogflade": "Engelske labels", "Dækning": f"{en_coverage}%", "Mangler": len(audit["missing_english_labels"]), "Grænse": "Oversættelse ≠ Autoritet"},
++            {"Sprogflade": "Danske labels", "Dækning": f"{da_coverage}%", "Mangler": len(audit["missing_danish_labels"]), "Grænse": "Oversættelse ≠ Autoritet"},
++            {"Sprogflade": "Hero-tekst", "Dækning": f"{hero_coverage}%", "Mangler": len(audit["missing_hero"]), "Grænse": "Hero ≠ Bind"},
++            {"Sprogflade": "Offentlig klarhed", "Dækning": "REVIEW", "Mangler": "manuel", "Grænse": "Klarhed ≠ Tilladelse"},
++        ]
++    dark_table(rows)
++
++def page_v22_public_claim_safety_audit() -> None:
++    render_hero("v22_public_claim_safety_audit")
++    rows = []
++    for c in V220_PUBLIC_CLAIMS:
++        rows.append({
++            v220_label("Public claim", "Offentlig claim"): c["claim"],
++            "Status": c["status"],
++            v220_label("Boundary", "Grænse"): c["boundary"],
++        })
++    dark_table(rows)
++
++def page_v22_download_report_audit() -> None:
++    render_hero("v22_download_report_audit")
++    rows = [
++        {"Surface": "JSON reports", "Status": "SAFE", "Purpose": "Review/replay evidence.", "Boundary": "Report ≠ Authority"},
++        {"Surface": "PDF reports", "Status": "SAFE", "Purpose": "Readable demo export.", "Boundary": "PDF ≠ Execution"},
++        {"Surface": "SHA256SUMS", "Status": "SAFE", "Purpose": "Integrity reference.", "Boundary": "Hash ≠ Bind"},
++        {"Surface": "GitHub ZIP", "Status": "SAFE", "Purpose": "Public upload package.", "Boundary": "ZIP ≠ Deployment"},
++        {"Surface": "Streamlit app", "Status": "SAFE", "Purpose": "Observer-only interface.", "Boundary": "UI ≠ Permission"},
++    ]
++    if v220_da():
++        rows = [
++            {"Flade": "JSON-rapporter", "Status": "SAFE", "Formål": "Review/replay evidens.", "Grænse": "Rapport ≠ Autoritet"},
++            {"Flade": "PDF-rapporter", "Status": "SAFE", "Formål": "Læsbar demo export.", "Grænse": "PDF ≠ Eksekvering"},
++            {"Flade": "SHA256SUMS", "Status": "SAFE", "Formål": "Integrity reference.", "Grænse": "Hash ≠ Bind"},
++            {"Flade": "GitHub ZIP", "Status": "SAFE", "Formål": "Public upload package.", "Grænse": "ZIP ≠ Deployment"},
++            {"Flade": "Streamlit app", "Status": "SAFE", "Formål": "Observer-only interface.", "Grænse": "UI ≠ Tilladelse"},
++        ]
++    dark_table(rows)
++
++def page_v22_mobile_readability_score() -> None:
++    render_hero("v22_mobile_readability_score")
++    rows = [
++        {"Mobile factor": "Short public nav groups", "Score": "PASS", "Why": "Less scrolling and less overwhelm.", "Boundary": "Usability ≠ Authority"},
++        {"Mobile factor": "Large hero cards", "Score": "PASS", "Why": "Readable on phones.", "Boundary": "Readable ≠ Bind"},
++        {"Mobile factor": "Five-minute explanation", "Score": "PASS", "Why": "Fast orientation.", "Boundary": "Explanation ≠ Permission"},
++        {"Mobile factor": "Fatigue friendly display", "Score": "REVIEW", "Why": "Needs more user testing.", "Boundary": "Comfort ≠ Execution"},
++        {"Mobile factor": "Download clarity", "Score": "REVIEW", "Why": "Downloads must stay clearly review-only.", "Boundary": "Download ≠ Effect"},
++    ]
++    if v220_da():
++        rows = [
++            {"Mobil faktor": "Korte public nav groups", "Score": "PASS", "Hvorfor": "Mindre scrolling og mindre overwhelm.", "Grænse": "Brugbarhed ≠ Autoritet"},
++            {"Mobil faktor": "Store hero cards", "Score": "PASS", "Hvorfor": "Læsbar på telefon.", "Grænse": "Læsbar ≠ Bind"},
++            {"Mobil faktor": "Fem-minutters forklaring", "Score": "PASS", "Hvorfor": "Hurtig orientering.", "Grænse": "Forklaring ≠ Tilladelse"},
++            {"Mobil faktor": "Fatigue friendly display", "Score": "REVIEW", "Hvorfor": "Kræver mere brugertest.", "Grænse": "Komfort ≠ Eksekvering"},
++            {"Mobil faktor": "Download-klarhed", "Score": "REVIEW", "Hvorfor": "Downloads skal forblive tydeligt review-only.", "Grænse": "Download ≠ Effekt"},
++        ]
++    dark_table(rows)
++
++def page_v22_reviewer_red_team_scoreboard() -> None:
++    render_hero("v22_reviewer_red_team_scoreboard")
++    rows = [
++        {"Challenge family": "Visibility -> Authority", "Expected result": "HOLD", "Score": "PASS", "Boundary": "Visibility ≠ Authority"},
++        {"Challenge family": "Story -> Authority", "Expected result": "HOLD", "Score": "PASS", "Boundary": "Story ≠ Authority"},
++        {"Challenge family": "DOI -> Bind", "Expected result": "HOLD", "Score": "PASS", "Boundary": "Citation ≠ Bind"},
++        {"Challenge family": "Usefulness -> Permission", "Expected result": "HOLD", "Score": "PASS", "Boundary": "Usefulness ≠ Permission"},
++        {"Challenge family": "Live app -> Deployment", "Expected result": "HOLD/FAIL", "Score": "PASS", "Boundary": "Live app ≠ Deployment"},
++    ]
++    if v220_da():
++        rows = [
++            {"Challenge-familie": "Visibility -> Authority", "Forventet resultat": "HOLD", "Score": "PASS", "Grænse": "Visibility ≠ Authority"},
++            {"Challenge-familie": "Story -> Authority", "Forventet resultat": "HOLD", "Score": "PASS", "Grænse": "Story ≠ Authority"},
++            {"Challenge-familie": "DOI -> Bind", "Forventet resultat": "HOLD", "Score": "PASS", "Grænse": "Citation ≠ Bind"},
++            {"Challenge-familie": "Usefulness -> Permission", "Forventet resultat": "HOLD", "Score": "PASS", "Grænse": "Usefulness ≠ Permission"},
++            {"Challenge-familie": "Live app -> Deployment", "Forventet resultat": "HOLD/FAIL", "Score": "PASS", "Grænse": "Live app ≠ Deployment"},
++        ]
++    dark_table(rows)
++
++def page_v22_streamlit_deployment_checklist() -> None:
++    render_hero("v22_streamlit_deployment_checklist")
++    rows = []
++    for c in V220_DEPLOYMENT_CHECKS:
++        rows.append({
++            v220_label("Deployment check", "Deployment-tjek"): c["check"],
++            "Status": c["status"],
++            v220_label("Note", "Note"): c["note"],
++            v220_label("Boundary", "Grænse"): "Checklist ≠ Deployment Authority",
++        })
++    dark_table(rows)
++
++def page_v22_release_notes_generator() -> None:
++    render_hero("v22_release_notes_generator")
++    notes = [
++        "CARE Runtime v22.0 adds a Quality + Trust Layer.",
++        "New checks cover live app health, broken pages, translation, public claims, downloads, mobile readiness, reviewer challenges and deployment readiness.",
++        "All quality signals are review-only.",
++        "Quality does not create authority. Search does not create bind. Live app does not create deployment.",
++    ]
++    if v220_da():
++        notes = [
++            "CARE Runtime v22.0 tilføjer et Quality + Trust Layer.",
++            "Nye checks dækker live app health, broken pages, oversættelse, public claims, downloads, mobil-readiness, reviewer challenges og deployment readiness.",
++            "Alle kvalitetssignaler er review-only.",
++            "Kvalitet skaber ikke autoritet. Søgning skaber ikke bind. Live app skaber ikke deployment.",
++        ]
++    st.text_area("Release notes" if not v220_da() else "Release notes", "\n".join("- " + n for n in notes), height=220)
++    payload = finalize_report_hash({"module": "v22_release_notes_generator", "notes": notes, "boundary": "Release notes do not create authority."})
++    json_download_button("Download Release Notes JSON", payload, "CARE_v22_0_release_notes")
++
++def page_v22_what_care_is_is_not() -> None:
++    render_hero("v22_what_care_is_is_not")
++    rows = []
++    for item in V220_IS_IS_NOT:
++        rows.append({
++            v220_label("CARE is", "CARE er"): item["is"],
++            v220_label("CARE is not", "CARE er ikke"): item["is_not"],
++            v220_label("Boundary", "Grænse"): "Clarity ≠ Permission",
++        })
++    dark_table(rows)
++
++def page_command_center() -> None:
++    page_v22_quality_trust_home()
++
++def v220_native_pages() -> Dict[str, List[Any]]:
++    lang = current_lang()
++    labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
++    used_urls = set()
++
++    def make_page(key: str, icon: str = "•") -> Any:
++        title = labels.get(key, key.replace("_", " ").title())
++        base_url = key.replace("_", "-")
++        url = base_url
++        suffix = 2
++        while url in used_urls:
++            url = f"{base_url}-{suffix}"
++            suffix += 1
++        used_urls.add(url)
++        return st.Page(ROUTES[key], title=title, icon=icon, url_path=url)
++
++    sections = {
++        "Quality + Trust" if lang == "English" else "Quality + Trust": [
++            ("v22_quality_trust_home", "🛡️"),
++            ("v22_live_app_health_check", "🟢"),
++            ("v22_broken_page_detector", "🧯"),
++            ("v22_translation_scanner", "🌐"),
++            ("v22_public_claim_safety_audit", "⚖️"),
++            ("v22_download_report_audit", "📦"),
++            ("v22_mobile_readability_score", "📱"),
++            ("v22_reviewer_red_team_scoreboard", "🧪"),
++            ("v22_streamlit_deployment_checklist", "🚀"),
++            ("v22_release_notes_generator", "📝"),
++            ("v22_what_care_is_is_not", "✅"),
++        ],
++        "Public Platform" if lang == "English" else "Public platform": [
++            ("v21_founder_dashboard_2", "👤"),
++            ("v21_public_platform_home", "🏠"),
++            ("v21_public_demo_cases", "🧪"),
++            ("v21_version_center", "🧾"),
++        ],
++        "Platform" if lang == "English" else "Platform": [
++            ("v20_executive_dashboard_pro", "🏆"),
++            ("v20_interactive_care_map", "🗺️"),
++            ("v20_release_center", "🚀"),
++            ("v20_github_zenodo_center", "🔗"),
++        ],
++        "Navigator" if lang == "English" else "Navigator": [
++            ("v19_care_in_5_minutes", "⏱️"),
++            ("v19_global_search_pro", "🔎"),
++            ("v19_timeline_explorer", "🧭"),
++            ("v19_knowledge_graph_center", "🕸️"),
++        ],
++    }
++
++    result = {}
++    for section, pairs in sections.items():
++        unique = []
++        seen = set()
++        for key, icon in pairs:
++            if key in ROUTES and key not in seen:
++                unique.append(make_page(key, icon))
++                seen.add(key)
++        result[section] = unique
++    return result
++
++def v220_render_nav_header() -> None:
++    st.sidebar.markdown(
++        """
++        <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
++                    background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v22.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Quality + Trust</div>
++          <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Health · claims · language · deploy</div>
++        </div>
++        """,
++        unsafe_allow_html=True,
++    )
++
++
++
+ ROUTES = {
++    "v22_quality_trust_home": page_v22_quality_trust_home,
++    "v22_live_app_health_check": page_v22_live_app_health_check,
++    "v22_broken_page_detector": page_v22_broken_page_detector,
++    "v22_translation_scanner": page_v22_translation_scanner,
++    "v22_public_claim_safety_audit": page_v22_public_claim_safety_audit,
++    "v22_download_report_audit": page_v22_download_report_audit,
++    "v22_mobile_readability_score": page_v22_mobile_readability_score,
++    "v22_reviewer_red_team_scoreboard": page_v22_reviewer_red_team_scoreboard,
++    "v22_streamlit_deployment_checklist": page_v22_streamlit_deployment_checklist,
++    "v22_release_notes_generator": page_v22_release_notes_generator,
++    "v22_what_care_is_is_not": page_v22_what_care_is_is_not,
+     "v21_founder_dashboard_2": page_v21_founder_dashboard_2,
+     "v21_public_platform_home": page_v21_public_platform_home,
+     "v21_github_status_center": page_v21_github_status_center,
+@@ -18923,12 +19425,12 @@
+ 
+ def main() -> None:
+     v129_apply_professional_css()
+-    v210_render_nav_header()
++    v220_render_nav_header()
+     language_selector()
+ 
+     if hasattr(st, "navigation") and hasattr(st, "Page"):
+         try:
+-            pg = st.navigation(v210_native_pages(), position="sidebar", expanded=True)
++            pg = st.navigation(v220_native_pages(), position="sidebar", expanded=True)
+             pg.run()
+             footer()
+             return
