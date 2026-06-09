@@ -1,0 +1,20 @@
+{
+  "release": "CARE Runtime v23.0",
+  "platform_pages": [
+    "v23_public_platform_home",
+    "v23_live_route_explorer",
+    "v23_health_score_engine",
+    "v23_deployment_center",
+    "v23_public_reviewer_mode",
+    "v23_care_statistics",
+    "v23_platform_launch_checklist",
+    "v23_public_readiness_report"
+  ],
+  "public_status": {
+    "github": "CONNECTED",
+    "streamlit": "LIVE",
+    "branch": "main",
+    "authority": "NO"
+  },
+  "boundary": "Public platform signals do not create authority, bind, permission, deployment or execution."
+}
