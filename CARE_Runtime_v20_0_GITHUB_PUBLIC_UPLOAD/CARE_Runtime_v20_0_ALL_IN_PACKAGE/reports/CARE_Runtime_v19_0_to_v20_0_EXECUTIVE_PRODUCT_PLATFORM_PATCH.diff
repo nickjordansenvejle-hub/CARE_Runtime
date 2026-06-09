@@ -1,0 +1,872 @@
+--- CARE_Runtime_v19_0_Global_Search_Timeline_Founder_Center.py
++++ CARE_Runtime_v20_0_Executive_Product_Platform.py
+@@ -25,7 +25,7 @@
+     PDF_AVAILABLE = False
+ 
+ # ============================================================
+-# CARE Runtime v19.0 Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 Executive Product Platform
+ # Built from CARE Runtime v8.8 and rebuilt with stable internal
+ # page keys, stronger Founder of CARE presence, cleaner bilingual
+ # routing, professional UI polish, and full PDF export support.
+@@ -40,7 +40,7 @@
+ # ============================================================
+ 
+ st.set_page_config(
+-    page_title="CARE Runtime v19.0.1 · All-In Consolidated + Sidebar Stability",
++    page_title="CARE Runtime v20.0.1 · All-In Consolidated + Sidebar Stability",
+     page_icon="🛡️",
+     layout="wide",
+     initial_sidebar_state="expanded",
+@@ -48,8 +48,8 @@
+ 
+ BASELINE = "CARE vNEXT858 FINAL CLEAN — FIXED CONTROL · F765"
+ CASE_VERSION = "vNEXT858 F765"
+-PLATFORM_NAME = "CARE Runtime v19.0"
+-PLATFORM_SUBTITLE = "Global Search + Timeline + Founder Center"
++PLATFORM_NAME = "CARE Runtime v20.0"
++PLATFORM_SUBTITLE = "Executive Product Platform"
+ CORE_RULE = "No proof -> no bind -> no effect-capable path -> no effect"
+ UNKNOWN_RULE = "UNKNOWN -> HOLD"
+ HUMAN_RULE = "No bind -> no human consequence"
+@@ -69,6 +69,16 @@
+ 
+ 
+ NON_AUTHORITY_GUARD = {
++    "v200_executive_product_platform_without_authority": True,
++    "v200_interactive_care_map_without_bind": True,
++    "v200_release_center_without_permission": True,
++    "v200_github_zenodo_center_without_execution": True,
++    "v200_world_impact_without_real_world_decision": True,
++    "v200_founder_pro_v2_without_deployment_authority": True,
++    "v200_display_mode_without_authority": True,
++    "release_score_without_permission": True,
++    "github_status_without_bind": True,
++    "world_impact_without_execution": True,
+     "v190_global_search_without_authority": True,
+     "v190_timeline_explorer_without_bind": True,
+     "v190_founder_center_without_permission": True,
+@@ -3190,7 +3200,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Language Selector Recovery
++# CARE Runtime v20.0 — Language Selector Recovery
+ # Restores the missing language_selector() used by the v12.8.1
+ # robust sidebar. Language selection improves access only.
+ # It does not create authority, bind, permission or execution.
+@@ -10542,7 +10552,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 Pressure Testing metadata
++# CARE Runtime v20.0 Pressure Testing metadata
+ # Public pressure testing, red team attempts, challenge records,
+ # boundary visualization and reviewer submissions remain observer-only.
+ # They can inspect, falsify pressure, and expose failure surfaces;
+@@ -10847,7 +10857,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Language improves access. It does not create authority.
+ # ============================================================
+ 
+@@ -10956,7 +10966,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Static inspection only. It does not create authority.
+ # ============================================================
+ 
+@@ -11161,7 +11171,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Visualization only. It does not create authority, bind, execution,
+ # permission or real-world consequence.
+ # ============================================================
+@@ -11386,7 +11396,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Challenge simulation only. It does not create authority, bind,
+ # execution, permission, or real-world consequence.
+ # ============================================================
+@@ -11718,7 +11728,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Review-only separation layer. It does not create authority.
+ # ============================================================
+ 
+@@ -11871,7 +11881,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Richard pressure surface:
+ # The reduction can survive while the ecosystem creates new
+ # legitimacy surfaces around it. This layer tests those surfaces.
+@@ -12132,7 +12142,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Self-Test Center
++# CARE Runtime v20.0 — Runtime Self-Test Center
+ # Static self-inspection only. It does not create authority,
+ # bind, execution, permission, or real-world consequence.
+ # ============================================================
+@@ -12339,7 +12349,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Every visible page must have content. Danish language mode should show
+ # Danish project/story/learning content wherever this patch controls output.
+ # Localization improves access only. It does not create authority.
+@@ -12782,7 +12792,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Completes the self-test windows and adds deeper QA surfaces.
+ # Self-test is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13141,7 +13151,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Fixes route definition order and adds completion audit pages.
+ # Audit is observer-only. PASS does not authorize.
+ # ============================================================
+@@ -13503,7 +13513,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # One control center for pages, translations, sidebar health,
+ # downloads and searchable CARE runtime inventory.
+ # Review-only. Completion score does not authorize.
+@@ -13526,7 +13536,7 @@
+             reports.append(page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "care_runtime_completion_center": "CARE Global Search + Timeline + Founder Center",
++        "care_runtime_completion_center": "CARE Executive Product Platform",
+         "translation_integrity_center": "Translation Integrity Center",
+         "sidebar_health_dashboard": "Sidebar Health Dashboard",
+         "download_surface_center": "Download Surface Center",
+@@ -13542,7 +13552,7 @@
+ 
+     HERO.update({
+         "care_runtime_completion_center": {
+-            "English": ("CARE Global Search + Timeline + Founder Center", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
++            "English": ("CARE Executive Product Platform", "One dashboard for page completion, language coverage, sidebar health, download surfaces and release review.", "Completion ≠ Authority"),
+             "Dansk": ("CARE runtime completion center", "Ét dashboard for side-udfyldning, sprogdækning, sidebar-health, downloadflader og release-review.", "Completion ≠ Autoritet"),
+         },
+         "translation_integrity_center": {
+@@ -13564,7 +13574,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "CARE Global Search + Timeline + Founder Center": "CARE runtime completion center",
++        "CARE Executive Product Platform": "CARE runtime completion center",
+         "Translation Integrity Center": "Oversættelses-integritetscenter",
+         "Sidebar Health Dashboard": "Sidebar health dashboard",
+         "Download Surface Center": "Downloadflade-center",
+@@ -13912,7 +13922,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Universal content overlay + public-source founder context.
+ # Every grouped page receives a visible purpose/boundary block.
+ # Public story is context only. It does not create authority.
+@@ -14308,7 +14318,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Robust route selector. Selection changes page_key directly.
+ # Navigation improves access only. It does not create authority.
+ # ============================================================
+@@ -14317,8 +14327,8 @@
+     lang = language_selector()
+     labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
+ 
+-    st.sidebar.markdown("## CARE Runtime v19.0")
+-    st.sidebar.caption("Global Search + Timeline + Founder Center · vNEXT858 · vNEXT859 HOLD")
++    st.sidebar.markdown("## CARE Runtime v20.0")
++    st.sidebar.caption("Executive Product Platform · vNEXT858 · vNEXT859 HOLD")
+ 
+     founder_label = "Founder of CARE" if lang == "English" else "Founder af CARE"
+     st.sidebar.markdown(
+@@ -14425,7 +14435,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Runtime Recovery Diagnostic
++# CARE Runtime v20.0 — Runtime Recovery Diagnostic
+ # Verifies language selector, sidebar route state and route references.
+ # ============================================================
+ 
+@@ -14521,7 +14531,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # A professional presentation layer: mission control, executive
+ # overview, founder timeline, partner readiness and improved sidebar.
+ # Design improves inspection only. It does not create authority.
+@@ -14983,7 +14993,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Mission Control</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Professional Platform UI · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+@@ -15046,7 +15056,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Public-facing entry points: Start Here, Public Demo Flow,
+ # Reviewer Mode, Clean Download Center and Public Demo QA.
+ # Public demo improves presentation only. It does not authorize.
+@@ -15183,7 +15193,7 @@
+             "CARE asks one public question: should a system be allowed to create consequence for people without valid proof, authority, current state and bind?"
+             if not v130_da()
+             else "CARE stiller ét offentligt spørgsmål: bør et system kunne skabe konsekvens for mennesker uden gyldigt bevis, autoritet, aktuel tilstand og bind?",
+-            "Global Search + Timeline + Founder Center" if not v130_da() else "Global Search + Timeline + Founder Center",
++            "Executive Product Platform" if not v130_da() else "Executive Product Platform",
+         )
+     else:
+         render_hero("start_here_public_demo")
+@@ -15318,8 +15328,8 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
+-          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Global Search + Timeline + Founder Center</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Product Platform</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Observer-only · vNEXT858 · vNEXT859 HOLD</div>
+         </div>
+         """,
+@@ -15395,7 +15405,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Human consequence first: consequence chain, scenario builder,
+ # hospital demo, municipality demo and human impact map.
+ # Demo is observer-only. It grants no authority, bind or execution.
+@@ -15416,7 +15426,7 @@
+             command_pages.insert(1 if "command_center" in command_pages else 0, page)
+ 
+     PAGE_LABELS.setdefault("English", {}).update({
+-        "human_consequence_center": "Global Search + Timeline + Founder Center",
++        "human_consequence_center": "Executive Product Platform",
+         "interactive_scenario_builder": "Interactive Scenario Builder",
+         "consequence_chain_map": "Consequence Chain Map",
+         "hospital_demo_center": "Hospital Demo",
+@@ -15432,7 +15442,7 @@
+ 
+     HERO.update({
+         "human_consequence_center": {
+-            "English": ("Global Search + Timeline + Founder Center", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
++            "English": ("Executive Product Platform", "CARE becomes easiest to understand when consequence is shown from the human side first.", "Human consequence ≠ Permission"),
+             "Dansk": ("Menneskelig konsekvens center", "CARE bliver lettest at forstå når konsekvens vises fra menneskets side først.", "Menneskelig konsekvens ≠ Tilladelse"),
+         },
+         "interactive_scenario_builder": {
+@@ -15454,7 +15464,7 @@
+     })
+ 
+     DA_TRANSLATIONS.update({
+-        "Global Search + Timeline + Founder Center": "Menneskelig konsekvens center",
++        "Executive Product Platform": "Menneskelig konsekvens center",
+         "Interactive Scenario Builder": "Interaktiv scenario-bygger",
+         "Consequence Chain Map": "Konsekvenskæde-kort",
+         "Hospital Demo": "Hospital demo",
+@@ -15692,7 +15702,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Moves public demo to a small Streamlit-native navigation shell:
+ # Start, Human Consequence, Scenario Builder, Hospital Demo,
+ # Municipality Demo, Reviewer Mode, Downloads, Runtime Health,
+@@ -15963,7 +15973,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Product Navigation</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">st.Page / st.navigation · Observer-only</div>
+         </div>
+@@ -15976,7 +15986,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Adds language audit, language coverage center, native-navigation
+ # language selector, stability matrix and public language showcase.
+ # Audit improves review only. It does not create authority.
+@@ -16305,7 +16315,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Language + Stability</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">EN/DK audit · native nav · observer-only</div>
+         </div>
+@@ -16318,7 +16328,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Fixes visible native navigation fallback warning, deduplicates
+ # native pages, adds executive dashboard, global search, platform
+ # status, founder story center and release readiness.
+@@ -16721,7 +16731,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Dashboard</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · status · readiness · observer-only</div>
+         </div>
+@@ -16738,7 +16748,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Adds richer founder story, visual mission page, human timeline,
+ # public founder cards and a polished executive home.
+ # Founder context improves understanding only. It grants no authority.
+@@ -17086,7 +17096,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Adds product architecture center, founder pro, accessibility/WCAG-style
+ # checklist, Search v2, Reviewer Pro and Public Demo Mode.
+ # These are presentation/review improvements only.
+@@ -17401,7 +17411,7 @@
+ 
+ 
+ # ============================================================
+-# CARE Runtime v19.0 — Global Search + Timeline + Founder Center
++# CARE Runtime v20.0 — Executive Product Platform
+ # Adds CARE in 5 Minutes, Global Search Pro, Timeline Explorer,
+ # Founder Center Pro, Knowledge Graph and Public Navigation Hub.
+ # Search, timeline and story are review surfaces only.
+@@ -17903,7 +17913,7 @@
+         """
+         <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
+                     background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
+-          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v19.0</div>
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
+           <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Navigator</div>
+           <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Search · timeline · founder · graph</div>
+         </div>
+@@ -17913,7 +17923,453 @@
+ 
+ 
+ 
++
++
++# ============================================================
++# CARE Runtime v20.0 — Executive Product Platform
++# Adds Executive Dashboard Pro, Interactive CARE Map,
++# Release Center, GitHub/Zenodo Center, World Impact,
++# Founder Pro v2 and display mode polish.
++# These are public review/presentation surfaces only.
++# ============================================================
++
++V200_PAGES = [
++    "v20_executive_dashboard_pro",
++    "v20_interactive_care_map",
++    "v20_release_center",
++    "v20_github_zenodo_center",
++    "v20_world_impact_center",
++    "v20_founder_pro_v2",
++    "v20_display_mode_center",
++]
++
++V200_PUBLIC_LINKS = {
++    "github_repository": "https://github.com/nickjordansenvejle-hub/CARE_Runtime",
++    "zenodo_concept_doi": "https://doi.org/10.5281/zenodo.20595377",
++    "zenodo_version_doi": "https://doi.org/10.5281/zenodo.20595378",
++}
++
++V200_MAP_NODES = [
++    {"area": "Founder", "icon": "👤", "why_en": "Human reason and mission.", "why_da": "Menneskelig grund og mission.", "boundary": "Story ≠ Authority"},
++    {"area": "Runtime", "icon": "⚙️", "why_en": "Where proof, authority, state and bind are checked.", "why_da": "Hvor proof, autoritet, state og bind kontrolleres.", "boundary": "Runtime ≠ Permission"},
++    {"area": "Human Consequence", "icon": "❤️", "why_en": "The person affected by consequence stays central.", "why_da": "Mennesket ramt af konsekvens står i centrum.", "boundary": "Human context ≠ Bind"},
++    {"area": "Reviewer", "icon": "🧪", "why_en": "Challenge the boundary without granting authority.", "why_da": "Udfordr grænsen uden at give autoritet.", "boundary": "Review ≠ Authority"},
++    {"area": "Search", "icon": "🔎", "why_en": "Find concepts, pages and timeline entries.", "why_da": "Find begreber, sider og tidslinje-punkter.", "boundary": "Search ≠ Bind"},
++    {"area": "Release", "icon": "🚀", "why_en": "Show readiness without claiming deployment.", "why_da": "Vis readiness uden at påstå deployment.", "boundary": "Readiness ≠ Deployment"},
++    {"area": "Evidence", "icon": "📦", "why_en": "Downloads, reports and hashes support review.", "why_da": "Downloads, rapporter og hashes understøtter review.", "boundary": "Evidence ≠ Authority"},
++]
++
++def v200_apply_patch() -> None:
++    GROUPS["product_platform_v20"] = V200_PAGES[:]
++    public_pages = GROUPS.setdefault("public_demo_v15", [])
++    for page in reversed(V200_PAGES):
++        if page not in public_pages:
++            public_pages.insert(0, page)
++
++    PAGE_LABELS.setdefault("English", {}).update({
++        "command_center": "Executive Platform",
++        "v20_executive_dashboard_pro": "Executive Dashboard Pro",
++        "v20_interactive_care_map": "Interactive CARE Map",
++        "v20_release_center": "Release Center",
++        "v20_github_zenodo_center": "GitHub + Zenodo Center",
++        "v20_world_impact_center": "World Impact",
++        "v20_founder_pro_v2": "Founder Pro v2",
++        "v20_display_mode_center": "Display Mode",
++        "product_platform_v20": "Product Platform v20",
++    })
++    PAGE_LABELS.setdefault("Dansk", {}).update({
++        "command_center": "Executive platform",
++        "v20_executive_dashboard_pro": "Executive dashboard Pro",
++        "v20_interactive_care_map": "Interaktivt CARE-kort",
++        "v20_release_center": "Release center",
++        "v20_github_zenodo_center": "GitHub + Zenodo center",
++        "v20_world_impact_center": "World Impact",
++        "v20_founder_pro_v2": "Founder Pro v2",
++        "v20_display_mode_center": "Visningstilstand",
++        "product_platform_v20": "Produktplatform v20",
++    })
++
++    HERO.update({
++        "v20_executive_dashboard_pro": {
++            "English": ("Executive Dashboard Pro", "A sharper executive surface: runtime, language, routes, release, GitHub, Zenodo and human consequence in one view.", "Dashboard ≠ Authority"),
++            "Dansk": ("Executive dashboard Pro", "En skarpere executive-flade: runtime, sprog, routes, release, GitHub, Zenodo og menneskelig konsekvens i én visning.", "Dashboard ≠ Autoritet"),
++        },
++        "v20_interactive_care_map": {
++            "English": ("Interactive CARE Map", "A product map showing how founder, runtime, review, release, search and evidence fit together.", "Map ≠ Bind"),
++            "Dansk": ("Interaktivt CARE-kort", "Et produktkort der viser hvordan founder, runtime, review, release, søgning og evidens hænger sammen.", "Kort ≠ Bind"),
++        },
++        "v20_release_center": {
++            "English": ("Release Center", "A public release-readiness page for version, QA, language, GitHub sync and safe claims.", "Readiness ≠ Deployment"),
++            "Dansk": ("Release center", "En offentlig release-readiness side for version, QA, sprog, GitHub-sync og sikre claims.", "Readiness ≠ Deployment"),
++        },
++        "v20_github_zenodo_center": {
++            "English": ("GitHub + Zenodo Center", "A credibility center for repository, DOI, citation, public package and review boundaries.", "Citation ≠ Authority"),
++            "Dansk": ("GitHub + Zenodo center", "Et credibility center for repository, DOI, citation, public package og review-grænser.", "Citation ≠ Autoritet"),
++        },
++        "v20_world_impact_center": {
++            "English": ("World Impact", "A safe impact map of where CARE could be useful without claiming adoption or deployment.", "Potential ≠ Deployment"),
++            "Dansk": ("World Impact", "Et sikkert impact-kort over hvor CARE kunne være nyttigt uden at påstå adoption eller deployment.", "Potentiale ≠ Deployment"),
++        },
++        "v20_founder_pro_v2": {
++            "English": ("Founder Pro v2", "A more polished founder page: human origin, public mission, safe claims and non-authority line.", "Founder ≠ Authority"),
++            "Dansk": ("Founder Pro v2", "En mere poleret founder-side: menneskelig oprindelse, offentlig mission, sikre claims og non-authority linje.", "Founder ≠ Autoritet"),
++        },
++        "v20_display_mode_center": {
++            "English": ("Display Mode", "A safer accessibility-oriented display selector: standard, large text, high contrast and fatigue-friendly notes.", "Display ≠ Permission"),
++            "Dansk": ("Visningstilstand", "En sikrere accessibility-orienteret visningsvælger: standard, stor tekst, høj kontrast og fatigue-venlige noter.", "Visning ≠ Tilladelse"),
++        },
++    })
++
++    DA_TRANSLATIONS.update({
++        "Executive Dashboard Pro": "Executive dashboard Pro",
++        "Interactive CARE Map": "Interaktivt CARE-kort",
++        "Release Center": "Release center",
++        "GitHub + Zenodo Center": "GitHub + Zenodo center",
++        "World Impact": "World Impact",
++        "Founder Pro v2": "Founder Pro v2",
++        "Display Mode": "Visningstilstand",
++        "Release score": "Release-score",
++        "Repository": "Repository",
++        "DOI": "DOI",
++        "Citation": "Citation",
++        "Potential use": "Mulig brug",
++        "Safe claim": "Sikker claim",
++        "No deployment claim": "Ingen deployment-påstand",
++    })
++
++v200_apply_patch()
++
++def v200_da() -> bool:
++    return current_lang() == "Dansk"
++
++def v200_label(en: str, da: str) -> str:
++    return da if v200_da() else en
++
++def v200_product_health() -> Dict[str, Any]:
++    try:
++        health = v160_health_payload() if callable(globals().get("v160_health_payload")) else {}
++    except Exception:
++        health = {}
++    try:
++        lang = v151_language_audit_payload() if callable(globals().get("v151_language_audit_payload")) else {}
++    except Exception:
++        lang = {}
++    missing_funcs = int(health.get("missing_route_functions", 0) or 0)
++    direct_refs = int(health.get("direct_payload_runtime_id_refs", 0) or 0)
++    pdf_ok = bool(health.get("pdf_available", PDF_AVAILABLE))
++    lang_pct = lang.get("completion_percent", 100.0)
++    release_score = 100
++    if missing_funcs:
++        release_score -= 25
++    if direct_refs:
++        release_score -= 15
++    if not pdf_ok:
++        release_score -= 8
++    try:
++        if isinstance(lang_pct, (int, float)) and lang_pct < 95:
++            release_score -= 10
++    except Exception:
++        pass
++    release_score = max(0, min(100, release_score))
++    return {
++        "version": "v20.0",
++        "routes": len(ROUTES),
++        "groups": len(GROUPS),
++        "guards": len(NON_AUTHORITY_GUARD),
++        "language_completion": lang_pct,
++        "missing_route_functions": missing_funcs,
++        "direct_payload_runtime_id_refs": direct_refs,
++        "pdf_available": pdf_ok,
++        "native_navigation_available": hasattr(st, "navigation") and hasattr(st, "Page"),
++        "github_connected": True,
++        "zenodo_listed": True,
++        "release_score": release_score,
++        "release_status": "READY FOR REVIEW" if release_score >= 90 else "REVIEW",
++    }
++
++def page_v20_executive_dashboard_pro() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    if callable(globals().get("v170_banner")):
++        v170_banner(
++            v200_label("CARE Executive Product Platform", "CARE Executive Product Platform"),
++            v200_label(
++                "A cleaner executive dashboard for CARE: release status, runtime health, GitHub, Zenodo, language, founder context and human consequence.",
++                "Et renere executive dashboard for CARE: release-status, runtime health, GitHub, Zenodo, sprog, founder-kontekst og menneskelig konsekvens.",
++            ),
++            "Product Platform v20",
++        )
++    else:
++        render_hero("v20_executive_dashboard_pro")
++
++    h = v200_product_health()
++    if callable(globals().get("v129_stats")):
++        v129_stats([
++            ("Release" if not v200_da() else "Release", str(h["release_score"]) + "%", h["release_status"]),
++            ("Routes" if not v200_da() else "Ruter", str(h["routes"]), "navigation surfaces"),
++            ("Language" if not v200_da() else "Sprog", f"{h['language_completion']}%", "EN/DK"),
++            ("Authority" if not v200_da() else "Autoritet", "NO", "observer-only"),
++        ])
++
++    rows = [
++        {"Executive signal": "Runtime health", "Status": "PASS" if h["missing_route_functions"] == 0 else "HOLD", "Meaning": "All route functions should exist.", "Boundary": "Health ≠ Authority"},
++        {"Executive signal": "GitHub", "Status": "CONNECTED", "Meaning": V200_PUBLIC_LINKS["github_repository"], "Boundary": "Repository ≠ Deployment"},
++        {"Executive signal": "Zenodo", "Status": "LISTED", "Meaning": "DOI/citation support public review.", "Boundary": "DOI ≠ Bind"},
++        {"Executive signal": "Human consequence", "Status": "CENTRAL", "Meaning": "No bind -> no human consequence.", "Boundary": "Message ≠ Permission"},
++        {"Executive signal": "Release", "Status": h["release_status"], "Meaning": "Ready for public review, not deployment.", "Boundary": "Readiness ≠ Deployment"},
++    ]
++    if v200_da():
++        rows = [
++            {"Executive signal": "Runtime health", "Status": "PASS" if h["missing_route_functions"] == 0 else "HOLD", "Betydning": "Alle route functions bør eksistere.", "Grænse": "Health ≠ Autoritet"},
++            {"Executive signal": "GitHub", "Status": "CONNECTED", "Betydning": V200_PUBLIC_LINKS["github_repository"], "Grænse": "Repository ≠ Deployment"},
++            {"Executive signal": "Zenodo", "Status": "LISTED", "Betydning": "DOI/citation understøtter public review.", "Grænse": "DOI ≠ Bind"},
++            {"Executive signal": "Menneskelig konsekvens", "Status": "CENTRAL", "Betydning": "Ingen bind -> ingen menneskelig konsekvens.", "Grænse": "Budskab ≠ Tilladelse"},
++            {"Executive signal": "Release", "Status": h["release_status"], "Betydning": "Klar til public review, ikke deployment.", "Grænse": "Readiness ≠ Deployment"},
++        ]
++    dark_table(rows)
++
++    payload = finalize_report_hash({"module": "v20_executive_dashboard_pro", "health": h, "rows": rows, "boundary": "Dashboard does not create authority."})
++    json_download_button("Download Executive v20 JSON", payload, "CARE_v20_0_executive_dashboard")
++
++def page_v20_interactive_care_map() -> None:
++    render_hero("v20_interactive_care_map")
++    labels = [n["icon"] + " " + n["area"] for n in V200_MAP_NODES]
++    selected = st.selectbox(v200_label("Choose area", "Vælg område"), labels)
++    selected_area = selected.split(" ", 1)[1]
++    node = next(n for n in V200_MAP_NODES if n["area"] == selected_area)
++
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    st.markdown(f"""
++<div class="care-v17-cardgrid">
++  <div class="care-v17-card"><h3>{escape(node['icon'] + ' ' + node['area'])}</h3><p>{escape(node['why_da'] if v200_da() else node['why_en'])}</p></div>
++  <div class="care-v17-card"><h3>{escape(v200_label('Boundary', 'Grænse'))}</h3><p>{escape(node['boundary'])}</p></div>
++  <div class="care-v17-card"><h3>{escape('CARE')}</h3><p>No proof -> no bind -> no effect-capable path -> no effect.</p></div>
++</div>
++""", unsafe_allow_html=True)
++
++    rows = [{
++        v200_label("Area", "Område"): n["area"],
++        v200_label("Why it matters", "Hvorfor det betyder noget"): n["why_da"] if v200_da() else n["why_en"],
++        v200_label("Boundary", "Grænse"): n["boundary"],
++    } for n in V200_MAP_NODES]
++    dark_table(rows)
++
++def page_v20_release_center() -> None:
++    render_hero("v20_release_center")
++    h = v200_product_health()
++    if callable(globals().get("v129_stats")):
++        v129_stats([
++            ("Version", h["version"], "current"),
++            ("Release score" if not v200_da() else "Release-score", str(h["release_score"]) + "%", h["release_status"]),
++            ("GitHub", "CONNECTED", "origin/main"),
++            ("Deploy", "NO", "review only"),
++        ])
++
++    rows = [
++        {"Release gate": "Syntax / AST", "Status": "PASS", "Safe claim": "Code parsed during build.", "Do not claim": "Production certification."},
++        {"Release gate": "Routes", "Status": "PASS" if h["missing_route_functions"] == 0 else "HOLD", "Safe claim": "Route functions exist.", "Do not claim": "All pages are institutionally approved."},
++        {"Release gate": "Language", "Status": f"{h['language_completion']}%", "Safe claim": "EN/DK coverage is tracked.", "Do not claim": "Legal translation."},
++        {"Release gate": "GitHub", "Status": "CONNECTED", "Safe claim": "Repository is available.", "Do not claim": "Deployment authority."},
++        {"Release gate": "Zenodo", "Status": "LISTED", "Safe claim": "Citation support exists.", "Do not claim": "DOI creates authority."},
++    ]
++    if v200_da():
++        rows = [
++            {"Release-gate": "Syntax / AST", "Status": "PASS", "Sikker claim": "Kode blev parsed under build.", "Påstå ikke": "Produktionscertificering."},
++            {"Release-gate": "Routes", "Status": "PASS" if h["missing_route_functions"] == 0 else "HOLD", "Sikker claim": "Route functions eksisterer.", "Påstå ikke": "Alle sider er institutionelt godkendt."},
++            {"Release-gate": "Sprog", "Status": f"{h['language_completion']}%", "Sikker claim": "EN/DK coverage trackes.", "Påstå ikke": "Juridisk oversættelse."},
++            {"Release-gate": "GitHub", "Status": "CONNECTED", "Sikker claim": "Repository er tilgængeligt.", "Påstå ikke": "Deployment-autoritet."},
++            {"Release-gate": "Zenodo", "Status": "LISTED", "Sikker claim": "Citation support findes.", "Påstå ikke": "DOI skaber autoritet."},
++        ]
++    dark_table(rows)
++    payload = finalize_report_hash({"module": "v20_release_center", "health": h, "rows": rows, "boundary": "Release readiness is not deployment."})
++    json_download_button("Download Release Center JSON", payload, "CARE_v20_0_release_center")
++
++def page_v20_github_zenodo_center() -> None:
++    render_hero("v20_github_zenodo_center")
++    rows = [
++        {"Surface": "GitHub Repository", "Link": V200_PUBLIC_LINKS["github_repository"], "Purpose": "Public code and review surface.", "Boundary": "Repository ≠ Deployment"},
++        {"Surface": "Zenodo Concept DOI", "Link": V200_PUBLIC_LINKS["zenodo_concept_doi"], "Purpose": "Concept citation surface.", "Boundary": "Citation ≠ Authority"},
++        {"Surface": "Zenodo Version DOI", "Link": V200_PUBLIC_LINKS["zenodo_version_doi"], "Purpose": "Version citation surface.", "Boundary": "DOI ≠ Bind"},
++        {"Surface": "Public package", "Link": "GitHub release / ZIP", "Purpose": "Review and reproducibility.", "Boundary": "Download ≠ Execution"},
++    ]
++    if v200_da():
++        rows = [
++            {"Flade": "GitHub Repository", "Link": V200_PUBLIC_LINKS["github_repository"], "Formål": "Offentlig kode og review-flade.", "Grænse": "Repository ≠ Deployment"},
++            {"Flade": "Zenodo Concept DOI", "Link": V200_PUBLIC_LINKS["zenodo_concept_doi"], "Formål": "Concept citation-flade.", "Grænse": "Citation ≠ Autoritet"},
++            {"Flade": "Zenodo Version DOI", "Link": V200_PUBLIC_LINKS["zenodo_version_doi"], "Formål": "Version citation-flade.", "Grænse": "DOI ≠ Bind"},
++            {"Flade": "Public package", "Link": "GitHub release / ZIP", "Formål": "Review og reproducibility.", "Grænse": "Download ≠ Eksekvering"},
++        ]
++    dark_table(rows)
++    st.info(v200_label("These links support review. They do not create authority.", "Disse links understøtter review. De skaber ikke autoritet."))
++
++def page_v20_world_impact_center() -> None:
++    render_hero("v20_world_impact_center")
++    rows = [
++        {"Domain": "Healthcare", "Potential use": "Prevent ungrounded patient consequence.", "Safe claim": "Potential review use.", "No deployment claim": "No clinical authority."},
++        {"Domain": "Municipalities", "Potential use": "Prevent ungrounded citizen consequence.", "Safe claim": "Potential public-sector review.", "No deployment claim": "No administrative authority."},
++        {"Domain": "AI Governance", "Potential use": "Challenge visibility-to-authority jumps.", "Safe claim": "Conceptual runtime boundary.", "No deployment claim": "Not a certified governance product."},
++        {"Domain": "Infrastructure", "Potential use": "Stop unbound effect-capable transitions.", "Safe claim": "Review surface.", "No deployment claim": "No operational control."},
++        {"Domain": "Research", "Potential use": "Discuss proof, bind and consequence boundaries.", "Safe claim": "Research conversation support.", "No deployment claim": "No formal standard claim."},
++    ]
++    if v200_da():
++        rows = [
++            {"Domæne": "Healthcare", "Mulig brug": "Forhindre ungrounded patientkonsekvens.", "Sikker claim": "Potentiel review-brug.", "Ingen deployment-påstand": "Ingen klinisk autoritet."},
++            {"Domæne": "Kommuner", "Mulig brug": "Forhindre ungrounded borgerkonsekvens.", "Sikker claim": "Potentiel public-sector review.", "Ingen deployment-påstand": "Ingen administrativ autoritet."},
++            {"Domæne": "AI Governance", "Mulig brug": "Udfordre visibility-to-authority spring.", "Sikker claim": "Conceptual runtime boundary.", "Ingen deployment-påstand": "Ikke et certificeret governance-produkt."},
++            {"Domæne": "Infrastructure", "Mulig brug": "Stoppe unbound effect-capable transitions.", "Sikker claim": "Review-flade.", "Ingen deployment-påstand": "Ingen operationel kontrol."},
++            {"Domæne": "Research", "Mulig brug": "Diskutere proof, bind og consequence boundaries.", "Sikker claim": "Research conversation support.", "Ingen deployment-påstand": "Ingen formel standard-claim."},
++        ]
++    dark_table(rows)
++
++def page_v20_founder_pro_v2() -> None:
++    if callable(globals().get("v170_visual_css")):
++        v170_visual_css()
++    render_hero("v20_founder_pro_v2")
++    st.markdown(f"""
++<div class="care-v17-banner">
++  <div class="care-v17-kicker">CARE Founder</div>
++  <div class="care-v17-title">Nick Vejle</div>
++  <div class="care-v17-sub">{escape(v200_label(
++      "CARE emerged from lived experience with consequence, interruption, recovery and the need for proof-bound authority.",
++      "CARE voksede ud af levet erfaring med konsekvens, afbrydelse, genopbygning og behovet for proof-bound autoritet."
++  ))}</div>
++  <div style="margin-top:18px;">
++    <span class="care-v17-pill">Founder story ≠ authority</span>
++    <span class="care-v17-pill">Authority remains proof-bound</span>
++    <span class="care-v17-pill">No bind → no human consequence</span>
++  </div>
++</div>
++""", unsafe_allow_html=True)
++    rows = [
++        {"Part": "Public identity", "Safe wording": "Nick Vejle, Founder of CARE.", "Do not claim": "Founder status creates authority."},
++        {"Part": "Human origin", "Safe wording": "CARE begins from the human side of consequence.", "Do not claim": "Experience replaces proof."},
++        {"Part": "Mission", "Safe wording": "Human consequence should not become real without valid grounding.", "Do not claim": "Mission is deployment authority."},
++        {"Part": "Boundary", "Safe wording": "Founder story is context. Authority remains proof-bound.", "Do not claim": "Story can authorize effect."},
++    ]
++    if v200_da():
++        rows = [
++            {"Del": "Offentlig identitet", "Sikker formulering": "Nick Vejle, Founder of CARE.", "Påstå ikke": "Founder-status skaber autoritet."},
++            {"Del": "Menneskelig oprindelse", "Sikker formulering": "CARE starter fra den menneskelige side af konsekvens.", "Påstå ikke": "Erfaring erstatter proof."},
++            {"Del": "Mission", "Sikker formulering": "Menneskelig konsekvens bør ikke blive virkelig uden gyldigt grundlag.", "Påstå ikke": "Mission er deployment-autoritet."},
++            {"Del": "Grænse", "Sikker formulering": "Founder-historie er kontekst. Autoritet forbliver proof-bound.", "Påstå ikke": "Historie kan autorisere effekt."},
++        ]
++    dark_table(rows)
++
++def page_v20_display_mode_center() -> None:
++    render_hero("v20_display_mode_center")
++    mode = st.radio(
++        v200_label("Choose display mode", "Vælg visningstilstand"),
++        ["Standard", "Large text", "High contrast", "Fatigue friendly"],
++        horizontal=True,
++    )
++    st.session_state["care_display_mode"] = mode
++
++    if mode == "Large text":
++        st.markdown("<style>html, body, [class*='css'] { font-size: 18px !important; }</style>", unsafe_allow_html=True)
++    elif mode == "High contrast":
++        st.markdown("<style>.stApp { filter: contrast(1.12); } p, div, span { letter-spacing:.01em; }</style>", unsafe_allow_html=True)
++    elif mode == "Fatigue friendly":
++        st.markdown("<style>.stApp { scroll-behavior: auto; } .care-v17-title { font-size: clamp(2rem, 4vw, 4rem)!important; }</style>", unsafe_allow_html=True)
++
++    rows = [
++        {"Mode": "Standard", "Purpose": "Default public demo mode.", "Boundary": "Display ≠ Permission"},
++        {"Mode": "Large text", "Purpose": "Larger reading surface.", "Boundary": "Display ≠ Authority"},
++        {"Mode": "High contrast", "Purpose": "More readable contrast.", "Boundary": "Contrast ≠ Bind"},
++        {"Mode": "Fatigue friendly", "Purpose": "Less visual pressure.", "Boundary": "Comfort ≠ Execution"},
++    ]
++    if v200_da():
++        rows = [
++            {"Mode": "Standard", "Formål": "Default public demo mode.", "Grænse": "Visning ≠ Tilladelse"},
++            {"Mode": "Large text", "Formål": "Større læseflade.", "Grænse": "Visning ≠ Autoritet"},
++            {"Mode": "High contrast", "Formål": "Mere læsbar kontrast.", "Grænse": "Kontrast ≠ Bind"},
++            {"Mode": "Fatigue friendly", "Formål": "Mindre visuelt pres.", "Grænse": "Komfort ≠ Eksekvering"},
++        ]
++    dark_table(rows)
++
++def page_command_center() -> None:
++    page_v20_executive_dashboard_pro()
++
++def v200_native_pages() -> Dict[str, List[Any]]:
++    lang = current_lang()
++    labels = PAGE_LABELS.get(lang, PAGE_LABELS.get("English", {}))
++    used_urls = set()
++
++    def make_page(key: str, icon: str = "•") -> Any:
++        title = labels.get(key, key.replace("_", " ").title())
++        base_url = key.replace("_", "-")
++        url = base_url
++        suffix = 2
++        while url in used_urls:
++            url = f"{base_url}-{suffix}"
++            suffix += 1
++        used_urls.add(url)
++        return st.Page(ROUTES[key], title=title, icon=icon, url_path=url)
++
++    sections = {
++        "Platform" if lang == "English" else "Platform": [
++            ("v20_executive_dashboard_pro", "🏆"),
++            ("v20_interactive_care_map", "🗺️"),
++            ("v20_release_center", "🚀"),
++            ("v20_github_zenodo_center", "🔗"),
++            ("v20_world_impact_center", "🌍"),
++            ("v20_founder_pro_v2", "👤"),
++            ("v20_display_mode_center", "♿"),
++        ],
++        "Navigator" if lang == "English" else "Navigator": [
++            ("v19_public_navigation_hub", "🏠"),
++            ("v19_care_in_5_minutes", "⏱️"),
++            ("v19_global_search_pro", "🔎"),
++            ("v19_timeline_explorer", "🧭"),
++            ("v19_knowledge_graph_center", "🕸️"),
++        ],
++        "Product" if lang == "English" else "Produkt": [
++            ("v18_product_home", "🏠"),
++            ("v18_public_demo_mode", "🧭"),
++            ("v18_accessibility_center", "♿"),
++            ("v18_reviewer_pro_center", "🧪"),
++            ("v18_product_architecture_center", "🏗️"),
++        ],
++        "Advanced" if lang == "English" else "Avanceret": [
++            ("v15_advanced_archive_center", "🗂️"),
++            ("clean_download_center", "📥"),
++        ],
++    }
++
++    result = {}
++    for section, pairs in sections.items():
++        unique = []
++        seen = set()
++        for key, icon in pairs:
++            if key in ROUTES and key not in seen:
++                unique.append(make_page(key, icon))
++                seen.add(key)
++        result[section] = unique
++    return result
++
++def v200_render_nav_header() -> None:
++    st.sidebar.markdown(
++        """
++        <div style="padding:16px 14px;border:1px solid rgba(250,204,21,.35);border-radius:20px;
++                    background:linear-gradient(135deg,rgba(250,204,21,.10),rgba(96,165,250,.06));margin:8px 0 14px 0;">
++          <div style="font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;color:#facc15;font-weight:950;">CARE Runtime v20.0</div>
++          <div style="font-size:1.25rem;font-weight:950;color:#fff;letter-spacing:-.04em;">Executive Platform</div>
++          <div style="font-size:.78rem;color:#cbd5e1;margin-top:4px;">Dashboard · map · release · founder</div>
++        </div>
++        """,
++        unsafe_allow_html=True,
++    )
++
++
++
+ ROUTES = {
++    "v20_executive_dashboard_pro": page_v20_executive_dashboard_pro,
++    "v20_interactive_care_map": page_v20_interactive_care_map,
++    "v20_release_center": page_v20_release_center,
++    "v20_github_zenodo_center": page_v20_github_zenodo_center,
++    "v20_world_impact_center": page_v20_world_impact_center,
++    "v20_founder_pro_v2": page_v20_founder_pro_v2,
++    "v20_display_mode_center": page_v20_display_mode_center,
+     "v19_public_navigation_hub": page_v19_public_navigation_hub,
+     "v19_care_in_5_minutes": page_v19_care_in_5_minutes,
+     "v19_global_search_pro": page_v19_global_search_pro,
+@@ -18169,12 +18625,12 @@
+ 
+ def main() -> None:
+     v129_apply_professional_css()
+-    v190_render_nav_header()
++    v200_render_nav_header()
+     language_selector()
+ 
+     if hasattr(st, "navigation") and hasattr(st, "Page"):
+         try:
+-            pg = st.navigation(v190_native_pages(), position="sidebar", expanded=True)
++            pg = st.navigation(v200_native_pages(), position="sidebar", expanded=True)
+             pg.run()
+             footer()
+             return

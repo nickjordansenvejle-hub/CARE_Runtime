@@ -1,0 +1,18 @@
+{
+  "release": "CARE Runtime v20.0",
+  "platform_pages": [
+    "v20_executive_dashboard_pro",
+    "v20_interactive_care_map",
+    "v20_release_center",
+    "v20_github_zenodo_center",
+    "v20_world_impact_center",
+    "v20_founder_pro_v2",
+    "v20_display_mode_center"
+  ],
+  "public_links": {
+    "github_repository": "https://github.com/nickjordansenvejle-hub/CARE_Runtime",
+    "zenodo_concept_doi": "https://doi.org/10.5281/zenodo.20595377",
+    "zenodo_version_doi": "https://doi.org/10.5281/zenodo.20595378"
+  },
+  "boundary": "Platform dashboard, map, release center, links and founder page do not create authority."
+}
